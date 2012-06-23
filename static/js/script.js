@@ -77,7 +77,7 @@ var app = $.sammy('#main', function() {
 			var $this = $(this),
 			timeIn = Math.floor(Math.random()*timeArray.length),
 			time = timeArray.slice(timeIn,timeIn+1);
-			console.log(time);
+			//console.log(time);
 			setTimeout(function(){
 					$this.css('opacity','1');
 			},time)
@@ -86,10 +86,10 @@ var app = $.sammy('#main', function() {
 	
 	this.get('#/projects/:title', function(context) {
 		var title = unescape(this.params['title']).replace(/ /g,"");
-		console.log(title);
+		//console.log(title);
 		$('#project-list').show('slow');
 		html = '<div class="title">' + this.params['title'] + '</div>' + $('#' + title).html();
-		console.log(html);
+		//console.log(html);
 		this.swap(html);
 		$("a.shotBox").fancybox()
 	});
