@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+<div id="projects" class="template-container">
+			<div class="title">
+				Things I've made
+			</div>
+			
+
+			<div class="content">
+				{% for project in project_list %}
+					<a href="/project/{{ project.link }}" >
+					<div class="feature-container" style="background: {{ project.bgColor }} no-repeat;">
+					<div class="feature-title">{{ project.title }}</div>
+					<div class="feature-image" style="background:url('{{ project.previewImage }}') no-repeat;"></div>
+					</div></a>
+				{% endfor %}
+			</div>
+
+
+			<img id="project-arrow" class="arrow" src="static/img/arrows/project.png"/>
+</div>
+{% endblock %}
