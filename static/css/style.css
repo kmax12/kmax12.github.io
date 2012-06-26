@@ -171,21 +171,21 @@ text-shadow: 0px 2px 10px #101010;
 
 .feature-title {
 	position:absolute;
-	top:0px;
+	bottom:0px;
 	padding:5px 5%;
 	z-index:3;
-	opacity:0;
+	opacity:1;
 	width:90%;
 	height:30px;
-	border-radius: 4px 20px 4px 4px;
-	background: rgba(100,100,100,0.85);
+	border-radius: 0px 0px 4px 20px;
+	background: rgba(50,50,50,1);
 	-webkit-transition: all ease-in-out 0.4s;
 	-moz-transition: all ease-in-out 0.4s;
 	transition: all ease-in-out 0.4s;
 }
 
 .feature-container:hover >.feature-title {
-	opacity:1;
+	opacity:.5;
 	-webkit-transition: all ease-in-out 0.2s;
 	-moz-transition: all ease-in-out 0.2s;
 	transition: all ease-in-out 0.2s;
