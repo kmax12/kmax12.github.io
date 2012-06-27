@@ -25,6 +25,11 @@ def project(link):
 
 	return flask.render_template('project.html', **template_data)
 
+@app.route("/experience")
+def experience():
+	return flask.render_template('experience.html', **template_data)
+
+
 @app.route("/contact")
 def contact():
 	return flask.render_template('contact.html', **template_data)

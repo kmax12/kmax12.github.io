@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block projectList %}
+	<ul id="project-list">
+		{% for project in project_list %}
+		  <li><a href="/project/{{ project.link }}">{{ project.title }}</a></li>
+		{% endfor %}
+	</ul>
+{% endblock %}
 
 {% block main %}
 <div id="projects" class="template-container">

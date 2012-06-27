@@ -37,9 +37,9 @@ p {
 
 #left-15 {
 	float:left;
-	padding: 2% 4% 3% 0%;
-	margin:2% 0% 4% 0%;
-	width: 17%;
+	padding: 1% 2% 1% 0%;
+	margin: 2% 0% 4% 0%;
+	width: 19%;
 	height:auto;
 	-moz-box-shadow: inset 5px 0 5px -5px #333;  
 	-webkit-box-shadow: inset 5px 0 5px -5px #333; 
@@ -89,7 +89,7 @@ p {
                0 20px 20px rgba(0,0,0,.15);
 }
 
-ul {
+ul.nav {
 	text-align:right;
 	list-style:none;
 	padding: 0;
@@ -101,8 +101,8 @@ ul {
 	font-variant: small-caps;
 }
 
-li {
-
+#project-list>li {
+	list-style:none;
 }
 
 li>ul {
@@ -171,6 +171,7 @@ text-shadow: 0px 2px 10px #101010;
 
 .feature-title {
 	position:absolute;
+	text-align: center;
 	bottom:0px;
 	padding:5px 5%;
 	z-index:3;
@@ -185,7 +186,7 @@ text-shadow: 0px 2px 10px #101010;
 }
 
 .feature-container:hover >.feature-title {
-	opacity:.5;
+	opacity:1;
 	-webkit-transition: all ease-in-out 0.2s;
 	-moz-transition: all ease-in-out 0.2s;
 	transition: all ease-in-out 0.2s;

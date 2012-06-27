@@ -25,10 +25,10 @@ project_list = [
 		'previewImage': '/static/img/kc/kc1-thumb.jpg',
 		'images' : ['/static/img/kc/kc1.jpg','/static/img/kc/kc2.jpg'],
 		'url' : None,
-		'tech' : 'javascript, pyton',
+		'tech' : 'javascript, python',
 		'created': 'Winter 2012',
-		'description': "KangaCruise is a vacation discovery engine that helps travelers sift through thousands of cruises to find the best one for them. We built a virtual travel agent artificial intelligence to that assists the user to the perfect vaction",
-		'add' : "I worked full time on this with Colin Sidoti and Louis sobel during the month of January as part of MIT's Independent Activites Period"
+		'description': "KangaCruise is a vacation discovery engine that helps travelers sift through thousands of cruises to find the best one for them. We built a virtual travel agent artificial intelligence that guides the user to the perfect vaction",
+		'add' : "I worked on KangaCruise full time with Colin Sidoti and Louis Sobel during the month of January as part of MIT's Independent Activites Period"
 	},
 	{
 		'title': 'Hungry4',
