@@ -60,7 +60,7 @@ project_list = [
 		'bgColor': randomColor(),
 		'previewImage': '/static/img/musique/mobile.png',
 		'images' : ['/static/img/musique/m1.jpeg','/static/img/musique/m2.jpeg','/static/img/musique/m3.jpeg','/static/img/musique/m4.jpeg'],
-		'url' : 'musique.herokuapp.com',
+		'url' : 'http://musique.herokuapp.com',
 		'tech' : 'ode.js, javascript, html5, css3',
 		'created': 'Summer 2011',
 		'description': 'Musique is a tool to collaboratively generate and enjoy playlists. There is one host computer that plays the actual music, but any connected client can add songs, control the volume, and toggle music play/pause via a web interface.',
