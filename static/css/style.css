@@ -116,9 +116,12 @@ li>ul {
 	
 }
 
+.remove-underline{
+		text-decoration: none;
+}
+
 A{
 	color:#dadada;
-	text-decoration: none;
 	text-shadow: 0px 2px 1px #575656;
 	-webkit-transition: all ease-in-out 0.2s;
 	-moz-transition: all ease-in-out 0.2s;
