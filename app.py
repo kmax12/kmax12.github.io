@@ -1,10 +1,11 @@
 import flask, os
-from data import project_list
+from data import project_list, paper_list
 
 app = flask.Flask(__name__)
 
 template_data = {
-	'project_list' : project_list
+	'project_list' : project_list,
+	'paper_list' : paper_list
 }
 
 @app.route("/")
@@ -14,6 +15,10 @@ def index():
 @app.route("/projects")
 def projects():
 	return flask.render_template('projects.html', **template_data)
+
+@app.route("/papers")
+def papers():
+	return flask.render_template('papers.html', **template_data)
 
 @app.route("/project/<link>")
 def project(link):

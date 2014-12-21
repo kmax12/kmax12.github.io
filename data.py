@@ -5,6 +5,23 @@ def randomColor():
 	return "#%x" % x
 
 
+paper_list = [
+	{
+		'title' :  'Activity Classification using Smartphone Accelerometer Data',
+		'file'  : 'papers/activity_classification.pdf'
+	},
+	{
+		'title' :  'ColorCrack: Identifying Cracks in Glass',
+		'file'  : 'papers/color_crack.pdf',
+	},
+	{
+		'title' :  'OK: OAuth 2.0 interface for the Kerberos V5 Authentication Protocol',
+		'file'  : 'papers/ok_server.pdf',
+		'code'	: 'https://github.com/bfaviero/ok'
+	},
+]
+
+
 project_list = [	
 	{
 		'title': 'Relert',

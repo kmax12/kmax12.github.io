@@ -105,6 +105,10 @@ ul.nav {
 	list-style:none;
 }
 
+.paper-title{
+	margin: 7px 0;
+}
+
 li>ul {
 	font-size:18px !important;
 	font-weight: 400;
