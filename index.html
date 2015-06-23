@@ -28,89 +28,116 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!--start-banner-->
 	<div class="banner" id="home">
-		<div class="topbar">
-			<div class="header container">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""></a>
+		<div class="back-tint">
+			<div class="topbar">
+				<div class="header container">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+				<div class="navigation">
+					 <span class="menu"></span> 
+						<ul class="navig">
+							<li><a href="#home" class="scroll">Home</a></li>
+							<li><a href="#why" class="scroll">Why FeatureLab?</a></li>
+							<li><a href="#how" class="scroll">How It Works</a></li>
+							<li><a href="#industries" class="scroll">Industries</a></li>
+							<li><a href="#about" class="scroll">About Us</a></li>
+							<li><a href="#contact" class="scroll">contact</a></li>
+						</ul>
+				</div>
+					<div class="clearfix"></div>
+				</div>
 			</div>
-			<div class="navigation">
-				 <span class="menu"></span> 
-					<ul class="navig">
-						<li><a href="index.html" class="active">Home</a></li>
-						<li><a href="why.html">Why FeatureLab?</a></li>
-						<li><a href="approach.html">Our Approach</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+			<div class="container">
+				<div class="banner-btm">
+					<div  id="top" class="callbacks_container">
+						<div class="banner-bottom">
+							<h1> The Data Science Workbench for Everyone </h1>
+							<p> FeatureLab’s Workbench™ is the first truly automatic data science solution for companies to expand their data science resources. </p>
+						</div>
+				    </div>
+				  <div class="clearfix"> </div>
+				</div>
 			</div>
+		<!-- script-for-menu -->
+			 <script>
+					$("span.menu").click(function(){
+						$(" ul.navig").slideToggle("slow" , function(){
+						});
+					});
+			 </script>
+			 <!-- script-for-menu -->
+			 <!--Slider-Starts-Here-->
+					<script src="js/responsiveslides.min.js"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider4").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        nav: true,
+				        speed: 10,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+				<!--End-slider-script-->
+		</div>	
+	</div>	
+	<!--end-banner-->
+	<!--start-why-->
+	<div class="why" id="why">
+		<div class="container">
+			<div class="why-top">
+				<img src="images/test-1.png" alt="" />
+				<h3>Why FeatureLab Workbench?</h3>
+			</div>
+			<div class="why-bottom">
+				<div class="col-md-12 why-bottom-body">
+					<div class="why-body">
+						<p>FeatureLab Workbench starts with a recommended solution. From there, Workbench gives you the tools to add your expertise to improve that solution. </p>
+						<p>When you use other “automatic” data science solutions, they require you to manually transform raw data, choose models and parameters to optimize, and derive insights from visualizations.</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-md-12 why-bottom-mod">
+					<div class="why-body-mod">
+						<img src="images/test-4.png" alt="" />
+					</div>
+				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
+	</div>
+	<!--end-why-->
+	<!--start-industries-->
+	<div class="industries" id="industries">
 		<div class="container">
-			<div class="banner-btm">
-				<div  id="top" class="callbacks_container">
-					<div class="banner-bottom">
-						<h1> The Data Science Workbench for Everyone </h1>
-						<p> FeatureLab’s Workbench™ is the first truly automatic data science solution for companies to expand their data science resources. </p>
-					</div>
-			    </div>
-			  <div class="clearfix"> </div>
-			</div>
-			</div>
-		</div>	
-	<!-- script-for-menu -->
-		 <script>
-				$("span.menu").click(function(){
-					$(" ul.navig").slideToggle("slow" , function(){
-					});
-				});
-		 </script>
-		 <!-- script-for-menu -->
-		 <!--Slider-Starts-Here-->
-				<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager: true,
-			        nav: true,
-			        speed: 10,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-			<!--End-slider-script-->	
-	<!--end-banner-->
-	<!--start-about-->
-	<div class="about" id="about">
-		<div class="container">
-			<div class="about-main">
+			<div class="industries-main">
 				<img src="images/SiteImages/Gears1.png" alt="" />
 				<h1>Industries</h1>
 				<img src="images/SiteImages/Gears.png" alt="" />
 				<h3>There is valuable data in every Industry</h3>
 				<p>We extract insights |  You get the value</p>
 			</div>
-			<div class="about-bottom">
-			<div class="abt">
-				<div class="col-md-4 about-left">
-					<div class="abt-one">
-						<div class="abt-left">
+			<div class="industries-bottom">
+			<div class="inds">
+				<div class="col-md-4 industries-left">
+					<div class="inds-one">
+						<div class="inds-left">
 							<div class="fab blue">
 								<img src="images/IndustryImages/retail.png" alt="" />
 							</div>
 						</div>
-						<div class="abt-right">
+						<div class="inds-right">
 							<h4>Retail and E-commerce</h4>
 							<p>Detailed analysis of customer behavior can recommend the right product in the right place for the right audience</p>
 							<p>Our insights give businesses a leg up in understanding customers, understanding competitors, understanding behaviors, and using a computational and quantitative approach to solving busniess problems</p>
@@ -118,14 +145,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div class="col-md-4 about-left">
-					<div class="abt-one">
-						<div class="abt-left">
+				<div class="col-md-4 industries-left">
+					<div class="inds-one">
+						<div class="inds-left">
 							<div class="fab blue">
 								<img src="images/IndustryImages/Education.png" alt="" />
 							</div>
 						</div>
-						<div class="abt-right">
+						<div class="inds-right">
 							<h4>Education</h4>
 							<p>Identify and analyze patterns to generate and refine content to keep education relavant.</p>
 							<p>Advanced analytics can measure and predict success based on student performance over time.</p>
@@ -134,14 +161,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div class="col-md-4 about-left">
-					<div class="abt-one">
-						<div class="abt-left">
+				<div class="col-md-4 industries-left">
+					<div class="inds-one">
+						<div class="inds-left">
 							<div class="fab blue">
 								<img src="images/IndustryImages/Financial.png" alt="" />
 							</div>
 						</div>
-						<div class="abt-right">
+						<div class="inds-right">
 							<h4>Financial Services</h4>
 							<p> Firms can use advanced analytics to extract information and patterns from investments, econometrics, trading activity, and all other financial data</p>
 							<p> Predictive analytics can be valuable for investment decisions and issuing early warnings on the market. </p>
@@ -152,43 +179,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="clearfix"></div>
 				</div>
-				<div class="abt">
-				<div class="col-md-4 about-left">
-					<div class="abt-one">
-						<div class="abt-left">
+				<div class="inds">
+				<div class="col-md-4 industries-left">
+					<div class="inds-one">
+						<div class="inds-left">
 							<div class="fab blue">
 								<img src="images/IndustryImages/Government.png" alt="" />
 							</div>
 						</div>
-						<div class="abt-right">
+						<div class="inds-right">
 							<h4>Government</h4>
 							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div class="col-md-4 about-left">
-					<div class="abt-one">
-						<div class="abt-left">
+				<div class="col-md-4 industries-left">
+					<div class="inds-one">
+						<div class="inds-left">
 							<div class="fab blue">
 								<img src="images/IndustryImages/Crowdfunding.png" alt="" />
 							</div>
 						</div>
-						<div class="abt-right">
+						<div class="inds-right">
 							<h4>Crowdfunding</h4>
 							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div class="col-md-4 about-left">
-					<div class="abt-one">
-						<div class="abt-left">
+				<div class="col-md-4 industries-left">
+					<div class="inds-one">
+						<div class="inds-left">
 							<div class="fab blue">
 								<img src="images/IndustryImages/Other.png" alt="" />
 							</div>
 						</div>
-						<div class="abt-right">
+						<div class="inds-right">
 							<h4>Other Industries</h4>
 							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
 						</div>
@@ -200,7 +227,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<!--end-about-->
+	<!--end-industries-->
 	<!--start-tech-->
 	<div class="tech">
 		<div class="container">

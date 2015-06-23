@@ -57,7 +57,6 @@ body a:hover{
 }
 ul.navig {
 	padding: 0;
-	margin-top: 1%;
 }
 ul.navig li span {
 	color: #fff;
@@ -224,8 +223,12 @@ ul.navig li:nth-of-type(3) {
 	-ms-background-size: cover;
 	min-height: 780px;
 }
-.banner:before{
-
+.back-tint{
+	background: rgba(8,8,8, 0.6);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
 }
 .banner-bottom h1 {
 	color: #fff;
@@ -236,7 +239,7 @@ ul.navig li:nth-of-type(3) {
 	line-height: 1.4em;
 }
 .banner-bottom p {
-	color: #fff;
+	color: #33afe5;
 	font-size: 2.8em;
 	font-weight: 200;
 	margin: 0 auto;
@@ -246,19 +249,22 @@ ul.navig li:nth-of-type(3) {
 }
 .banner-btm {
 	text-align: center;
-	margin-top: 15%;
-	background: rgba(8,8,8, 0.6);
+	margin-top: 10%;
 ;
 }
 .topbar{
 	/*background: url(../images/banner1.jpg) no-repeat;*/
-	background: rgba(8,8,8, 0.6);
+	background: rgba(255,255,255, 1);
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	min-height: 90px;
+	position:fixed;
+	z-index: 1000;
+	overflow: hidden;
+	width: 100%;
 }
 /*------------------ Slider Part starts Here----------*/
 .slider{
@@ -571,14 +577,14 @@ ul.callbacks_tabs.callbacks2_tabs {
   fill: #fff;
 }
 
-/*--About-Part-Starts-Here--*/
-.about-main h3,.special-bottom h3,.contact-top h3,.pricing-top h3{
+/*--Industries-Part-Starts-Here--*/
+.industries-main h3,.special-bottom h3,.contact-top h3,.pricing-top h3{
 	color: #333333;
 	font-size: 1.7em;
 	font-weight: 900;
 	margin: 4% 0 0 0;
 }
-.about-main p,.special-bottom p,.contact-top p,.pricing-top p{
+.industries-main p,.special-bottom p,.contact-top p,.pricing-top p{
 	color: #999999;
 	font-size: 16px;
 	font-weight: 400;
@@ -586,35 +592,35 @@ ul.callbacks_tabs.callbacks2_tabs {
 	width: 50%;
 	line-height: 1.4em;
 }
-.about-main{
+.industries-main{
 	text-align:center;
 }
-.about-main h1{
+.industries-main h1{
 	display: inline;
 	padding-left: 10px;
 	padding-right: 10px;
 }
-.about-bottom{
+.industries-bottom{
 	margin-top:8%;
 }
-.about {
+.industries {
 	padding: 5em 0px;
 }
 
-.abt-right h4 {
+.inds-right h4 {
 	color: #3399cc;
 	font-size: 17px;
 	font-weight: 400;
 	margin: 0;
 	text-align: center;
 }
-.abt-right p {
+.inds-right p {
 	color: #cccccc;
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 4%;
 }
-.abt-left{
+.inds-left{
 	width:10%;
 	float:left;
 	position: relative;
@@ -627,24 +633,24 @@ ul.callbacks_tabs.callbacks2_tabs {
     margin-top: 20%;
 	display: block;
 }
-.abt-right {
+.inds-right {
 	width: 90%;
 	float: right;
 
 }
-.abt:nth-child(2) {
+.inds:nth-child(2) {
 	margin-top: 5%;
 }
-.col-md-4.about-left:hover .abt-one,.col-md-4.about-left.active .abt-one{
+.col-md-4.industries-left:hover .inds-one,.col-md-4.industries-left.active .inds-one{
 	background: rgba(204, 204, 204, 0.3);
 }
-.col-md-4.about-left:hover .abt-right p,.col-md-4.about-left.active .abt-right p{
+.col-md-4.industries-left:hover .inds-right p,.col-md-4.industries-left.active .inds-right p{
 	color:#666666;
 }
-.abt-one {
+.inds-one {
 	padding: 2.5em 0px;
 }
-/*--About-Part-Ends-Here--*/
+/*--industries-Part-Ends-Here--*/
 /*--Special-Part-Ends-Here--*/
 .special {
 	background: #f0f0f0;
@@ -1084,32 +1090,35 @@ div#portfoliolist {
 	-ms-transition: 0.5s all ease;
 }
 /*--Pricing-Part-Ends-Here--*/
-/*--Test-Part-Starts-Here--*/
-.test {
+/*--why-Part-Starts-Here--*/
+.why {
 	background: #33afe5;
 	padding: 6em 0px 7em 0px;
 }
-.test-top{
+.why-top{
 	text-align:center;
 }
-.test-top h3 {
+.why-top h3 {
 	color: #fff;
-	font-size: 1.7em;
-	font-weight: 900;
-	margin: 4% 0 0 0;
+	font-size: 2.7em;
+	font-weight: 300;
+	margin-top: 2%;
 }
-.test-top p {
+.why-top p {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 400;
-	margin: 10px auto 0;
 	width: 50%;
 	line-height: 1.4em;
 }
-.test-bottom {
-	margin-top: 8%;
+.why-top img{
+	width: 7%;
+	margin-top: -4%;
 }
-.test-left{
+.why-bottom {
+	margin-top: 5%;
+}
+.why-body{
 	background:#fff;
 	padding: 3em 0px 2.5em 0;
 	border-radius: 0.3em;
@@ -1118,42 +1127,36 @@ div#portfoliolist {
 	-o-border-radius: 0.3em;
 	-ms-border-radius: 0.3em;
 }
-.test-left p {
+.why-body p {
 	color: #666666;
-	font-size: 15px;
+	font-size: 24px;
 	line-height: 1.4em;
 	font-weight: 400;
-	padding: 0 12% 0px 17%;
+	padding: 2% 3% 2% 3%;
 }
-.test-left p span{
+.why-body p span{
 	color:#3399cc;
 	margin-left:4px;
 }
-.test-btm{
+.why-body-mod{
+	margin-top: 0%;
+	padding: 3em 0px 2.5em 0;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+.why-body-mod img{
+	width: 90%;
+    display:block;
+    margin:auto;
+}
+.why-btm{
 	margin-top:1em;
 }
-.test-1 {
-	width: 25%;
-	float: left;
-	text-align: right;
-}
-.test-2 {
-	width: 71%;
-	float: right;
-	padding-top: 10px;
-}
-.test-2 h4{
-	color:#3399cc;
-	font-size:18px;
-	margin:0;
-	font-weight:400;
-}
-.test-2 label{
-	color:#c2c5c5;
-	font-size:14px;
-	font-weight: 400;
-}
-/*--Test-Part-Ends-Here--*/
+
+/*--why-Part-Ends-Here--*/
 /*--demo-Part-Ends-Here--*/
 .demo{
 	padding:2.5em 0px;
@@ -1393,7 +1396,7 @@ div#portfoliolist {
 	min-height: 91px;
 }
 .banner-btm {
-	margin-top: 15%;
+	margin-top: 20%;
 }
 .callbacks_tabs {
 	top: 110%;
@@ -1427,16 +1430,16 @@ div#portfoliolist {
 	min-height: 78px;
 }
 .banner-btm {
-	margin-top: 15%;
+	margin-top: 20%;
 }
 .callbacks_tabs {
 	top: 110%;
 }
-.abt-right p {
+.inds-right p {
 	font-size: 15px;
 	padding-right: 5%;
 }
-.about-bottom {
+.industries-bottom {
 	margin-top: 6%;
 }
 .spl-one p {
@@ -1454,13 +1457,13 @@ div#portfoliolist {
 .pricing-bottom {
 	margin-top: 8%;
 }
-.test-left {
+.why-body {
 	padding: 2.4em 0px 2.5em 0;
 }
-.test-btm {
+.why-btm {
 	margin-top: 1.2em;
 }
-.test {
+.why {
 	padding: 4.5em 0px 5.5em 0px;
 }
 .contact {
@@ -1507,14 +1510,14 @@ div#portfoliolist {
 .special {
 	padding-bottom: 5em;
 }
-.pricing-top img,.about-main img,.special-bottom img,.test-top img,.contact-top img {
+.pricing-top img,.industries-main img,.special-bottom img,.why-top img,.contact-top img {
 	width: 8%;
 }
-.about-main h3, .special-bottom h3, .contact-top h3, .pricing-top h3,.test-top h3 {
+.industries-main h3, .special-bottom h3, .contact-top h3, .pricing-top h3,.why-top h3 {
 	font-size: 1.5em;
 	margin: 3.2% 0 0 0;
 }
-.about-main p, .special-bottom p, .contact-top p, .pricing-top p,.test-top p {
+.industries-main p, .special-bottom p, .contact-top p, .pricing-top p,.why-top p {
 	font-size: 15px;
 	width: 61%;
 }
@@ -1608,22 +1611,22 @@ div#portfoliolist {
 .tech {
 	padding: 2em 0px;
 }
-.about-main h3, .special-bottom h3, .contact-top h3, 
-.pricing-top h3, .test-top h3 {
+.industries-main h3, .special-bottom h3, .contact-top h3, 
+.pricing-top h3, .why-top h3 {
 	font-size: 1.3em;
 }
-.about-main p, .special-bottom p, .contact-top p, .pricing-top p, .test-top p {
+.industries-main p, .special-bottom p, .contact-top p, .pricing-top p, .why-top p {
 	font-size: 14px;
 	width: 80%;
 	margin: 6px auto 0;
 }	
-.about {
+.industries {
 	padding: 3em 0px;
 }
-.col-md-4.about-left:nth-child(3) {
+.col-md-4.industries-left:nth-child(3) {
 	display: none;
 }
-.col-md-4.about-left{
+.col-md-4.industries-left{
 	width:50%;
 	float:left;
 }
@@ -1723,24 +1726,24 @@ span.menu {
 .pricing-bottom {
 	margin: 6% 0 0 12%;
 }
-.test {
+.why {
 	padding: 3em 0px 3.5em 0px;
 }
-.test-bottom-left {
+.why-bottom-left {
 	width: 50%;
 	float: left;
 }
-.test-bottom-left:nth-child(3){
+.why-bottom-left:nth-child(3){
 	display:none;
 }
-.test-left p {
+.why-body p {
 	font-size: 14px;
 	padding: 0 7% 0px 12%;
 }
-.test-left {
+.why-body {
 	padding: 2em 0px;
 }
-.test-bottom {
+.why-bottom {
 	margin-top: 5%;
 }
 .demo-left p {
@@ -1855,35 +1858,35 @@ span.menu {
 .tech {
 	padding: 1.5em 0px;
 }
-.about {
+.industries {
 	padding: 2.3em 0px;
 }
-.about-main h3, .special-bottom h3, .contact-top h3, .pricing-top h3, .test-top h3 {
+.industries-main h3, .special-bottom h3, .contact-top h3, .pricing-top h3, .why-top h3 {
 	font-size: 1.2em;
 	margin: 2.5% 0 0 0;
 }
-.about-main p, .special-bottom p, .contact-top p,
+.industries-main p, .special-bottom p, .contact-top p,
  .pricing-top p, 
-.test-top p {
+.why-top p {
 	font-size: 13px;
 }
-.about-bottom {
+.industries-bottom {
 	margin-top: 4%;
 }
-.abt-right h4 {
+.inds-right h4 {
 	font-size: 15px;
 }
-.abt-right p {
+.inds-right p {
 	font-size: 14px;
 	padding-right: 22%;
 }
-.abt-one {
+.inds-one {
 	padding: 2em 0px;
 }
-.abt-right {
+.inds-right {
 	width: 72%;
 }
-.abt-left {
+.inds-left {
 	width: 26%;
 }
 .special-bottom {
@@ -1909,26 +1912,26 @@ div#portfoliolist {
 .pricing-bottom {
 	margin: 4.5% 0 0 12%;
 }
-.test {
+.why {
 	padding: 2.5em 0px 3em 0px;
 }
-.test-left p {
+.why-body p {
 	font-size: 13px;
 	padding: 0 7% 0px 11%;
 }
-.test-left {
+.why-body {
 	padding: 1.5em 0px;
 }
-.test-1 img {
+.why-1 img {
 	width: 80%;
 }
-.test-2 h4 {
+.why-2 h4 {
 	font-size: 16px;
 }
-.test-2 label {
+.why-2 label {
 	font-size: 13px;
 }
-.test-btm {
+.why-btm {
 	margin-top: 1em;
 }
 .demo-left p {
@@ -2043,60 +2046,60 @@ span.menu {
 .tech {
 	padding: 1.1em 0px;
 }
-.pricing-top img, .about-main img, .special-bottom img,
- .test-top img, .contact-top img {
+.pricing-top img, .industries-main img, .special-bottom img,
+ .why-top img, .contact-top img {
 	width: 10%;
 }
-.about-main h3, .special-bottom h3, .contact-top h3, .pricing-top h3, .test-top h3 {
+.industries-main h3, .special-bottom h3, .contact-top h3, .pricing-top h3, .why-top h3 {
 	font-size: 1.1em;
 }
-.about-main p, .special-bottom p, .contact-top p, .pricing-top p,
- .test-top p {
+.industries-main p, .special-bottom p, .contact-top p, .pricing-top p,
+ .why-top p {
 	width: 100%;
 }
-.abt-left span {
+.inds-left span {
 	width: 40px;
 	height: 39px;
 	background-size: 600%;
 }
-.col-md-4.about-left:hover .abt-left span.hnd, .col-md-4.about-left.active .abt-left span.hnd.active {
+.col-md-4.industries-left:hover .inds-left span.hnd, .col-md-4.industries-left.active .inds-left span.hnd.active {
 	background-position: 0px -39px;
 }
-.abt-left span.d {
+.inds-left span.d {
 	background-position: -40px 0px;
 }
-.col-md-4.about-left:hover .abt-left span.d{
+.col-md-4.industries-left:hover .inds-left span.d{
 	background-position:-40px -39px;
 }
-.abt-left span.flg {
+.inds-left span.flg {
 	background-position: -123px 0px;
 }
-.col-md-4.about-left:hover .abt-left span.flg {
+.col-md-4.industries-left:hover .inds-left span.flg {
 	background-position: -123px -39px;
 }
-.abt-left span.flr {
+.inds-left span.flr {
 	background-position: -162px 0px;
 }
-.col-md-4.about-left:hover .abt-left span.flr {
+.col-md-4.industries-left:hover .inds-left span.flr {
 	background-position: -162px -39px;
 }
-.abt-left {
+.inds-left {
 	width: 21%;
 }
-.abt-right {
+.inds-right {
 	width: 77%;
 }
-.abt-right h4 {
+.inds-right h4 {
 	font-size: 14px;
 }
-.abt-right p {
+.inds-right p {
 	font-size: 13px;
 	padding-right: 5%;
 }
-.abt-one {
+.inds-one {
 	padding: 1.5em 0px;
 }
-.about {
+.industries {
 	padding: 2em 0px;
 }
 .spl-one span {
@@ -2163,24 +2166,24 @@ div#portfoliolist {
 .price-one span {
 	width: 54px;
 }
-.test-left p {
+.why-body p {
 	padding: 0 5% 0px 9%;
 	overflow: hidden;
 	height: 92px;
 }
-.test-left {
+.why-body {
 	padding: 1.25em 0px;
 }
-.test-2 {
+.why-2 {
 	padding-top: 2px;
 }
-.test-2 h4 {
+.why-2 h4 {
 	font-size: 15px;
 }
-.test-2 label {
+.why-2 label {
 	font-size: 12px;
 }
-.test {
+.why {
 	padding: 2em 0px 2.5em 0px;
 }
 .demo-left p {
@@ -2268,29 +2271,29 @@ div#portfoliolist {
 .tech {
 	padding: 1em 0px;
 }
-.pricing-top img, .about-main img, .special-bottom img,
- .test-top img, .contact-top img {
+.pricing-top img, .industries-main img, .special-bottom img,
+ .why-top img, .contact-top img {
 	width: 14%;
 }
-.about-main p, .special-bottom p, .contact-top p, 
-.pricing-top p, .test-top p {
+.industries-main p, .special-bottom p, .contact-top p, 
+.pricing-top p, .why-top p {
 	font-size: 14px;
 	overflow: hidden;
 	height: 40px;
 }
-.about-main h3, .special-bottom h3, .contact-top h3, 
-.pricing-top h3, .test-top h3 {
+.industries-main h3, .special-bottom h3, .contact-top h3, 
+.pricing-top h3, .why-top h3 {
 	font-size: 1em;
 	margin: 4% 0 0 0;
 }	
-.abt:nth-child(2){
+.inds:nth-child(2){
 	display: none;
 }
-.col-md-4.about-left {
+.col-md-4.industries-left {
 	width: 100%;
 	margin: 10px 0px;
 }
-.about {
+.industries {
 	padding: 1.5em 0px;
 }	
 .logo img {
@@ -2336,12 +2339,12 @@ div#portfoliolist {
 	font-size: 11px;
 	top: -0.5em;
 }
-.test-bottom-left {
+.why-bottom-left {
 	width: 90%;
 	float: none;
 	margin: 11px auto 0;
 }
-.test-btm {
+.why-btm {
 	margin-top: 12px;
 }
 .demo-left p {
