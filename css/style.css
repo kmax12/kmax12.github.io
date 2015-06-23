@@ -186,7 +186,7 @@ ul.navig li:nth-of-type(3) {
 	font-weight: 700;
 	font-size: 3.1em;
 	width: 90%;
-	margin: 0 auto;
+	margin: 20px auto;
 	line-height: 1.4em;
 }
 .banner-bottom p {
@@ -195,8 +195,11 @@ ul.navig li:nth-of-type(3) {
 	font-weight: 200;
 	margin: 0 auto;
 	width: 80%;
-	margin-top: 7px;
-	line-height: 2.0em;
+	margin-top: 20px;
+	line-height: 1.0em;
+}
+.banner-bottom span{
+	color: #fff;
 }
 .banner-btm {
 	text-align: center;
@@ -709,13 +712,6 @@ div#portfoliolist {
 	font-weight: 300;
 	margin-top: 2%;
 }
-.why-top p {
-	color: #fff;
-	font-size: 16px;
-	font-weight: 400;
-	width: 50%;
-	line-height: 1.4em;
-}
 .why-top img{
 	width: 7%;
 	margin-top: -4%;
@@ -724,7 +720,6 @@ div#portfoliolist {
 	margin-top: 5%;
 }
 .why-body{
-	background:#fff;
 	padding: 3em 0px 2.5em 0;
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
@@ -733,10 +728,10 @@ div#portfoliolist {
 	-ms-border-radius: 0.3em;
 }
 .why-body p {
-	color: #666666;
+	color: #fff;
 	font-size: 24px;
 	line-height: 1.4em;
-	font-weight: 400;
+	font-weight: 200;
 	padding: 2% 3% 2% 3%;
 }
 .why-body p span{
