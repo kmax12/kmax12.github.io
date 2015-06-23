@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FeatureLab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Atom Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+<!--start-smoth-scrolling-->
+</head>
+<body>
+<!--start-banner-->
+	<div class="banner" id="home">
+		<div class="topbar">
+			<div class="header container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig">
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="why.html">Why FeatureLab?</a></li>
+						<li><a href="approach.html">Our Approach</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+			</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="banner-btm">
+				<div  id="top" class="callbacks_container">
+					<div class="banner-bottom">
+						<h1> The Data Science Workbench for Everyone </h1>
+						<p> FeatureLab’s Workbench™ is the first truly automatic data science solution for companies to expand their data science resources. </p>
+					</div>
+			    </div>
+			  <div class="clearfix"> </div>
+			</div>
+			</div>
+		</div>	
+	<!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		 <!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 10,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->	
+	<!--end-banner-->
+	<!--start-about-->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="about-main">
+				<img src="images/SiteImages/Gears1.png" alt="" />
+				<h1>Industries</h1>
+				<img src="images/SiteImages/Gears.png" alt="" />
+				<h3>There is valuable data in every Industry</h3>
+				<p>We extract insights |  You get the value</p>
+			</div>
+			<div class="about-bottom">
+			<div class="abt">
+				<div class="col-md-4 about-left">
+					<div class="abt-one">
+						<div class="abt-left">
+							<div class="fab blue">
+								<img src="images/IndustryImages/retail.png" alt="" />
+							</div>
+						</div>
+						<div class="abt-right">
+							<h4>Retail and E-commerce</h4>
+							<p>Detailed analysis of customer behavior can recommend the right product in the right place for the right audience</p>
+							<p>Our insights give businesses a leg up in understanding customers, understanding competitors, understanding behaviors, and using a computational and quantitative approach to solving busniess problems</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-4 about-left">
+					<div class="abt-one">
+						<div class="abt-left">
+							<div class="fab blue">
+								<img src="images/IndustryImages/Education.png" alt="" />
+							</div>
+						</div>
+						<div class="abt-right">
+							<h4>Education</h4>
+							<p>Identify and analyze patterns to generate and refine content to keep education relavant.</p>
+							<p>Advanced analytics can measure and predict success based on student performance over time.</p>
+							<p>Institutions can raise retention rates by acting on the insights gathered from student behaviors and engaement levels.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-4 about-left">
+					<div class="abt-one">
+						<div class="abt-left">
+							<div class="fab blue">
+								<img src="images/IndustryImages/Financial.png" alt="" />
+							</div>
+						</div>
+						<div class="abt-right">
+							<h4>Financial Services</h4>
+							<p> Firms can use advanced analytics to extract information and patterns from investments, econometrics, trading activity, and all other financial data</p>
+							<p> Predictive analytics can be valuable for investment decisions and issuing early warnings on the market. </p>
+							<p> FeatureLab's extracted insights will be key in managing risk, preventing financial fraud, credit verification and providing more accurate pricing.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				</div>
+				<div class="abt">
+				<div class="col-md-4 about-left">
+					<div class="abt-one">
+						<div class="abt-left">
+							<div class="fab blue">
+								<img src="images/IndustryImages/Government.png" alt="" />
+							</div>
+						</div>
+						<div class="abt-right">
+							<h4>Government</h4>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-4 about-left">
+					<div class="abt-one">
+						<div class="abt-left">
+							<div class="fab blue">
+								<img src="images/IndustryImages/Crowdfunding.png" alt="" />
+							</div>
+						</div>
+						<div class="abt-right">
+							<h4>Crowdfunding</h4>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-4 about-left">
+					<div class="abt-one">
+						<div class="abt-left">
+							<div class="fab blue">
+								<img src="images/IndustryImages/Other.png" alt="" />
+							</div>
+						</div>
+						<div class="abt-right">
+							<h4>Other Industries</h4>
+							<p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-about-->
+	<!--start-tech-->
+	<div class="tech">
+		<div class="container">
+			<div class="tech-main">
+				<div class="tech-left">
+					<img src="images/TechLogos/python.png"/>
+				</div>
+				<div class="tech-left">
+					<img src="images/TechLogos/spark.png" alt="" />
+				</div>
+				<div class="tech-left">
+					<img src="images/TechLogos/hadoop.png" alt="" />
+				</div>
+				<div class="tech-left">
+					<img src="images/TechLogos/mysql.png" alt="" />
+				</div>
+				<div class="tech-left">
+					<img src="images/TechLogos/postgres.png" alt="" />
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--end-tech-->
+	<!--start-demo-->
+	<div class="demo">
+		<div class="container">
+			<div class="demo-main">
+				<div class="col-md-8 demo-left">
+					<p>See how FeatureLab's revolutionary technology can help your business</p>
+				</div>
+				<div class="col-md-4 demo-right">
+					<a class="play-icon popup-with-zoom-anim" href="contact.html"><span> </span>Contact Us</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--end-demo-->
+	<!--start-footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<p>&copy 2015 FeatureLab.</p>
+				<ul>
+					<li><a href="#"><span class="fb"> </span></a></li>
+					<li><a href="#"><span class="twt"> </span></a></li>
+					<li><a href="#"><span class="p"> </span></a></li>
+					<li><a href="#"><span class="d"> </span></a></li>
+				</ul>
+			</div>
+		</div>
+		 <script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--end-footer-->
+</body>
+</html>
