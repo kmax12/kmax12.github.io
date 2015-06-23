@@ -18,7 +18,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
 					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					$('html,body').animate({scrollTop:$(this.hash).offset().top-49},1000);
 				});
 			});
 		</script>
@@ -31,26 +31,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="back-tint">
 			<div class="topbar">
 				<div class="header container">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt=""></a>
-				</div>
-				<div class="navigation">
-					 <span class="menu"></span> 
-						<ul class="navig">
-							<li><a href="#home" class="scroll">Home</a></li>
-							<li><a href="#why" class="scroll">Why FeatureLab?</a></li>
-							<li><a href="#how" class="scroll">How It Works</a></li>
-							<li><a href="#industries" class="scroll">Industries</a></li>
-							<li><a href="#about" class="scroll">About Us</a></li>
-							<li><a href="#contact" class="scroll">contact</a></li>
-						</ul>
-				</div>
-					<div class="clearfix"></div>
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.png" alt=""></a>
+					</div>
+					<div class="navigation">
+						 <span class="menu"></span> 
+							<ul class="navig">
+								<li><a href="#home" class="scroll">Home</a></li>
+								<li><a href="#why" class="scroll">Why FeatureLab?</a></li>
+								<li><a href="#how" class="scroll">How It Works</a></li>
+								<li><a href="#industries" class="scroll">Industries</a></li>
+								<li><a href="#about" class="scroll">About Us</a></li>
+								<li><a href="#contact" class="scroll">contact</a></li>
+							</ul>
+					</div>
+						<div class="clearfix"></div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="banner-btm">
-					<div  id="top" class="callbacks_container">
+					<div  id="top">
 						<div class="banner-bottom">
 							<h1> The Data Science Workbench for Everyone </h1>
 							<p> FeatureLab’s Workbench™ is the first truly automatic data science solution for companies to expand their data science resources. </p>
@@ -67,29 +67,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					});
 			 </script>
 			 <!-- script-for-menu -->
-			 <!--Slider-Starts-Here-->
-					<script src="js/responsiveslides.min.js"></script>
-				 <script>
-				    // You can also use "$(window).load(function() {"
-				    $(function () {
-				      // Slideshow 4
-				      $("#slider4").responsiveSlides({
-				        auto: true,
-				        pager: true,
-				        nav: true,
-				        speed: 10,
-				        namespace: "callbacks",
-				        before: function () {
-				          $('.events').append("<li>before event fired.</li>");
-				        },
-				        after: function () {
-				          $('.events').append("<li>after event fired.</li>");
-				        }
-				      });
-				
-				    });
-				  </script>
-				<!--End-slider-script-->
 		</div>	
 	</div>	
 	<!--end-banner-->
