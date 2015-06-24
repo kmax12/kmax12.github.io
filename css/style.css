@@ -110,23 +110,23 @@ ul.navig li a:after{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
-	min-height: 680px;
+	height: 650px;
 }
 .back-tint{
 	background: rgba(8,8,8, 0.5);
-	min-height: 680px;
+	min-height: 650px;
 }
 .banner-bottom h1 {
 	color: #fff;
-	font-weight: 700;
-	font-size: 3.1em;
+	font-weight: 600;
+	font-size: 3.2em;
 	width: 90%;
 	margin: 20px auto;
 	line-height: 1.4em;
 }
 .banner-bottom p {
 	color: #33afe5;
-	font-size: 2.8em;
+	font-size: 2.0em;
 	font-weight: 300;
 	margin: 0 auto;
 	width: 80%;
@@ -139,7 +139,7 @@ ul.navig li a:after{
 
 .banner-btm {
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 20%;
 }
 .topbar{
 	/*background: url(../images/banner1.jpg) no-repeat;*/
@@ -242,16 +242,16 @@ ul.navig li a:after{
 
 .inds-right h4 {
 	color: #3399cc;
-	font-size: 17px;
-	font-weight: 400;
-	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
 	text-align: center;
 }
 .inds-right p {
 	color: #cccccc;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 400;
 	margin-top: 4%;
+	margin-right: 5%;
 }
 .inds-left{
 	width:10%;
