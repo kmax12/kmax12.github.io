@@ -565,10 +565,22 @@ div#portfoliolist {
 .why-top{
 	text-align:center;
 }
+.why-top span{
+	font-weight: 800;
+	color: #40c781;
+}
 .why-top h3 {
 	color: #fff;
 	font-size: 2.7em;
-	font-weight: 300;
+	font-weight: 400;
+}
+.why-top p {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 200;
+	width: 80%;
+	padding-top: 5px;
+	margin: auto;
 }
 .why-top img{
 	width: 4%;
