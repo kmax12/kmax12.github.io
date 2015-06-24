@@ -21,7 +21,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					$('html,body').animate({scrollTop:$(this.hash).offset().top-49},1000);
 				});
 			});
-		</script>
+</script>
 
 <!--start-smoth-scrolling-->
 </head>
@@ -32,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="topbar">
 				<div class="header container">
 					<div class="logo">
-						<a href="index.html"><img src="images/logo.png" alt=""></a>
+						<a href="index.html"><img src="images/logo_color.png" alt=""></a>
 					</div>
 					<div class="navigation">
 						 <span class="menu"></span> 
@@ -42,11 +42,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="#how" class="scroll">How It Works</a></li>
 								<li><a href="#industries" class="scroll">Industries</a></li>
 								<li><a href="#about" class="scroll">About Us</a></li>
-								<li><a href="#contact" class="scroll">contact</a></li>
+								<li><a href="#contact" class="scroll">Contact</a></li>
 							</ul>
 					</div>
 						<div class="clearfix"></div>
 				</div>
+				<script type="text/javascript">
+					var a = $(".topbar").offset().top;
+					$(document).scroll(function(){
+					    if($(this).scrollTop() > a+625)
+					    {   
+					       $('.topbar').css({"background":"rgba(145,145,145, .2)"});
+					    } else {
+					       $('.topbar').css({"background":"rgba(255,255,255, .9)"});
+					    }
+					});
+				</script>
 			</div>
 			<div class="container">
 				<div class="banner-btm">
@@ -74,20 +85,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="why" id="why">
 		<div class="container">
 			<div class="why-top">
-				<img src="images/test-1.png" alt="" />
+				<img src="images/qmark.png" alt="" />
 				<h3>Why FeatureLab Workbench?</h3>
 			</div>
 			<div class="why-bottom">
 				<div class="col-md-8 why-bottom-body">
-					<div class="why-body">
+					<div class="why-body-left">
 						<p>FeatureLab Workbench starts with a recommended solution. From there, Workbench gives you the tools to add your expertise to improve that solution. </p>
 						<p>When you use other “automatic” data science solutions, they require you to manually transform raw data, choose models and parameters to optimize, and derive insights from visualizations.</p>
 					</div>
 				</div>
-				<div class="clearfix"></div>
-				<div class="col-md-12 why-bottom-mod">
-					<div class="why-body-mod">
-						<img src="images/test-4.png" alt="" />
+				<div class="col-md-4 why-bottom-mod">
+					<div class="why-body-right">
+						<img src="images/workflow.png" alt="" />
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -259,17 +269,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		 <script type="text/javascript">
 									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
+										$().UItoTop({ easingType: 'easeOutQuart' });								
 									});
 								</script>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
