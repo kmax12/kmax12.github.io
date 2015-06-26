@@ -163,7 +163,7 @@ ul.navig li a:after{
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	min-height: 50px;
-	position:fixed;
+	position:static;
 	z-index: 1000;
 	overflow: hidden;
 	width: 100%;
