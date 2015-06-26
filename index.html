@@ -4,8 +4,6 @@
 <title>FeatureLab</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Atom Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -27,28 +25,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <!--start-banner-->
+	<div class="topbar">
+		<div class="header container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo_color.png" alt=""></a>
+			</div>
+			<div class="navigation">
+				 <span class="menu"></span> 
+					<ul class="navig" type="disc">
+						<li><a href="#home" class="scroll">Home</a></li>
+						<li><a href="#why" class="scroll">Why FeatureLab?</a></li>
+						<li><a href="#how" class="scroll">How It Works</a></li>
+						<li><a href="#industries" class="scroll">Industries</a></li>
+						<li><a href="#about" class="scroll">About Us</a></li>
+						<li><a href="#contact" class="scroll">Contact</a></li>
+					</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!-- Section 1 -->
+	<section id="banner" data-speed="2" data-type="background">
 	<div class="banner" id="home">
 		<div class="back-tint">
-			<div class="topbar">
-				<div class="header container">
-					<div class="logo">
-						<a href="index.html"><img src="images/logo_color.png" alt=""></a>
-					</div>
-					<div class="navigation">
-						 <span class="menu"></span> 
-							<ul class="navig" type="disc">
-								<li><a href="#home" class="scroll">Home</a></li>
-								<li><a href="#why" class="scroll">Why FeatureLab?</a></li>
-								<li><a href="#how" class="scroll">How It Works</a></li>
-								<li><a href="#industries" class="scroll">Industries</a></li>
-								<li><a href="#about" class="scroll">About Us</a></li>
-								<li><a href="#contact" class="scroll">Contact</a></li>
-							</ul>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
 			<div class="container">
 				<div class="banner-btm">
 					<div  id="top">
@@ -60,16 +60,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  <div class="clearfix"> </div>
 				</div>
 			</div>
-		<!-- script-for-menu -->
+		<!-- script-for-parallax -->
 			 <script>
-					$("span.menu").click(function(){
-						$(" ul.navig").slideToggle("slow" , function(){
-						});
-					});
+				$(document).ready(function(){
+				   // cache the window object
+				   $window = $(window);
+				 
+				   $('section[data-type="background"]').each(function(){
+				     // declare the variable to affect the defined data-type
+				     var $scroll = $(this);
+				                     
+				      $(window).scroll(function() {
+				        // HTML5 proves useful for helping with creating JS functions!
+				        // also, negative value because we're scrolling upwards                             
+				        var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+				         
+				        // background position
+				        var coords = '50% '+ yPos + 'px';
+				 
+				        // move the background
+				        $scroll.css({ backgroundPosition: coords });    
+				      }); // end window scroll
+				   });  // end section function
+				}); // close out script
 			 </script>
-			 <!-- script-for-menu -->
+			 <!-- script-for-parallax -->
 		</div>	
-	</div>	
+	</div>
+	</section>	
 	<!--end-banner-->
 	<!--start-why-->
 	<div class="why" id="why">
@@ -92,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="who-left">
+					<div class="who">
 						<div class="fab-who blue">
 							<img src="images/bs.png" alt="" />
 						</div>
@@ -106,7 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="who-left">
+					<div class="who">
 						<div class="fab-who blue">
 							<img src="images/ds.png" alt="" />
 						</div>

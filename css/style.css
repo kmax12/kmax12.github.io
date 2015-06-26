@@ -109,8 +109,27 @@ ul.navig li a:after{
 	
 }
 /*--Header-Part-Ends-Here --*/
+
+#banner { 
+    background: url(../images/banner.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    position: relative; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    z-index: 999;
+    height: 650px;
+
+
+}
+
 /*-- Banner-Part-Starts-Here--*/
 .banner{
+	/*
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -120,11 +139,12 @@ ul.navig li a:after{
 	z-index: 999;
 	background-image: url(../images/banner.jpg);
 	position: relative;
+	*/
 }
 .back-tint{
 	background: rgba(8,8,8, 0.5);
 	min-height: 650px;
-	position: relative;
+	position: static;
 	z-index: 999;
 }
 .banner-bottom h1 {
@@ -250,7 +270,7 @@ ul.navig li a:after{
 .why-btm{
 	margin-top:1em;
 }
-.who-left{
+.who{
 	background: rgba(255,255,255, .8);
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
@@ -260,7 +280,7 @@ ul.navig li a:after{
 	margin-top: 10%;
 	min-height: 455px;
 }
-.who-left p {
+.who p {
 	color: #333;
 	font-size: 1.3em;
 	font-weight: 300;
@@ -268,7 +288,7 @@ ul.navig li a:after{
 	margin: 5%;
 
 }
-.who-left h1 {
+.who h1 {
 	width: 80%;
 	margin: auto;
 	text-align: center;
@@ -280,9 +300,10 @@ ul.navig li a:after{
 	padding-bottom: 10px;
 	padding-top: 25px;
 	padding: 25px,25px,10px,25px;
+	font-weight: bold;
 }
 
-.who-left ul {
+.who ul {
     list-style: disc;
     padding:0;
     margin:2%;
@@ -290,7 +311,7 @@ ul.navig li a:after{
     padding-left: 35px;
 }
 
-.who-left li { 
+.who li { 
     color : #333;
 	padding: 5px 5px 10px 10px;
     text-indent: -0em;
@@ -300,10 +321,10 @@ ul.navig li a:after{
 	margin: auto;
 }
 
-.who-left li:before {
+.who li:before {
     color: #40c781;
 }
-.who-left img{
+.who img{
 	width: 50%;
 }
 /* --fab-who-- */
