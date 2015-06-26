@@ -63,7 +63,6 @@ ul.navig {
 	display: inline;
 	float: right;
 	padding-top: 2%;
-
 }
 ul.navig li span {
 	color: #000;
@@ -73,7 +72,8 @@ ul.navig li span {
 ul.navig li {
 	display: inline-block;
 	margin: 0 2px;
-	position: relative;
+	position: static;
+
 }
 ul.navig li a {
 	font-size: 1.04em;
@@ -117,10 +117,9 @@ ul.navig li a:after{
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	height: 650px;
-	z-index: 1000;
+	z-index: 999;
 	background-image: url(../images/banner.jpg);
-	background-attachment: fixed;
-	position: static;
+	position: relative;
 }
 .back-tint{
 	background: rgba(8,8,8, 0.5);
@@ -158,12 +157,8 @@ ul.navig li a:after{
 	/*background: url(../images/banner1.jpg) no-repeat;*/
 	background: rgba(255,255,255, .9);
 	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-ms-background-size: cover;
 	min-height: 50px;
-	position:static;
+	position: fixed;
 	z-index: 1000;
 	overflow: hidden;
 	width: 100%;
@@ -209,10 +204,10 @@ ul.navig li a:after{
 	margin: auto;
 }
 .why-top img{
-  width: 30%;
+  width: 35%;
   position: absolute;
-  top: -50px;
-  left: -130px;
+  top: -80px;
+  left: -160px;
   opacity: .2;
 }
 .why-bottom {
@@ -288,16 +283,17 @@ ul.navig li a:after{
 }
 
 .who-left ul {
-    list-style: none;
+    list-style: disc;
     padding:0;
     margin:2%;
     padding-bottom: 50px;
+    padding-left: 35px;
 }
 
 .who-left li { 
-	color: #333;
-	padding: 5px 5px 10px 35px;
-    text-indent: -.7em;
+    color : #333;
+	padding: 5px 5px 10px 10px;
+    text-indent: -0em;
    	font-size: 1.5em;
 	font-weight: 600;
 	width: 85%;
@@ -305,7 +301,6 @@ ul.navig li a:after{
 }
 
 .who-left li:before {
-    content: "• ";
     color: #40c781;
 }
 .who-left img{
@@ -374,8 +369,8 @@ ul.navig li a:after{
 .how-top img{
   width: 35%;
   position: absolute;
-  top: -50px;
-  right: -120px;
+  top: -70px;
+  right: -140px;
   opacity: .2;
 }
 .how-bottom {
@@ -447,8 +442,8 @@ ul.navig li a:after{
 .industries-main img{
   width: 35%;
   position: absolute;
-  top: -50px;
-  left:-120px;
+  top: -80px;
+  left: -160px;
   opacity: .2;
 
 }
