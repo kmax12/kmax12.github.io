@@ -175,7 +175,7 @@ ul.navig li a:after{
 }
 .topbar{
 	/*background: url(../images/banner1.jpg) no-repeat;*/
-	background: rgba(255,255,255, .9);
+	background: rgba(255,255,255, .95);
 	background-size: cover;
 	min-height: 50px;
 	position: fixed;
