@@ -116,7 +116,7 @@ ul.navig li {
 ul.navig li a {
 	text-decoration: none;
 	padding: 11px 7px;
-	font-size: 22px;
+	font-size: 20px;
 }
 /*ul.navig li a:hover,ul.navig li a.active {
 	transition: 0.5s all;
@@ -472,11 +472,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	-o-border-radius: 0.3em;
 	-ms-border-radius: 0.3em;
 }
-.how-body-img img{
+.how-body-img .dfs{
 	width: 25%;
     display:block;
     margin:auto;
 }
+
+.model-trans{
+	width: 100%;
+	border-radius:5px;
+	margin-top: 36px;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.7);
+}
+
 .how-btm{
 	margin-top:1em;
 }
