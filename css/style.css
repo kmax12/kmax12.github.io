@@ -79,7 +79,6 @@ body a:hover{
 
 .topbar.affix .logo img{
 	filter: none;
-	padding-top: 5px;
     -webkit-filter: none;
     -moz-filter: none;
     -o-filter: none;
@@ -89,6 +88,7 @@ body a:hover{
 	max-width: 200px;
 	display: inline-block;
 	float:left;
+	padding-top: 5px;
 	filter: brightness(0) invert(1);
     -webkit-filter: brightness(0) invert(1);
     -moz-filter: brightness(0) invert(1);
@@ -219,15 +219,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	text-align: center;
 	margin-top: 20%;
 }
-.topbar{
-	background: rgba(255,255,255, .95);
-	background-size: cover;
-	min-height: 50px;
-	position: fixed;
-	z-index: 1000;
-	overflow: hidden;
-	width: 100%;
-}
+
 
 /*--Banner-Part-Ends-Here--*/
 /*--Tech-Part-Starts-Here--*/
