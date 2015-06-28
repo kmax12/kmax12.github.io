@@ -195,13 +195,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 .banner-bottom h1 {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 4.5em;
 	width: 95%;
 	margin: 20px auto;
 	line-height: 1.4em;
 }
 .banner-bottom p {
+	font-family: 'Roboto', sans-serif;
 	color: #33afe5;
 	font-size: 2.1em;
 	font-weight: 300;
@@ -432,11 +433,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
   right: -140px;
   opacity: .2;
 }
+
+.how-line{
+	margin-top: 20px;
+}
 .how-bottom {
 	margin-top: 2%;
 }
 .how-body-text{
-	padding: 3em 0px 2.5em 0;
+	/*padding: 3em 0px 2.5em 0;*/
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
 	-moz-border-radius: 0.3em;
@@ -449,25 +454,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	font-size: 24px;
 	line-height: 1.4em;
 	font-weight: 200;
-	padding: 2% 3% 2% 3%;
+	/*padding: 2% 3% 2% 3%;*/
 }
 .how-body-text p span{
 	color:#3399cc;
-	margin-left:4px;
+	/*margin-left:4px;*/
 }
 .how-body-img{
 	margin-top: 0%;
-	padding: 3em 0px 2.5em 0;
+	/*padding: 3em 0px 2.5em 0;*/
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
 	-moz-border-radius: 0.3em;
 	-o-border-radius: 0.3em;
 	-ms-border-radius: 0.3em;
 }
-.how-body-img .dfs{
-	width: 25%;
+.how-body-img.dfs{
+}
+.how-body-img.dfs img {
     display:block;
     margin:auto;
+	width: 25%;
 }
 
 .model-trans{
@@ -475,6 +482,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	border-radius:5px;
 	margin-top: 36px;
 	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.7);
+}
+
+.transform-container{
+	width: 146px;
+	margin: 50px auto 0;
+	border-radius: 5px;
+	background-color: #33afe5;
+	padding: 19px;
+}
+.transform{
+	filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+    -moz-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    -ms-filter: brightness(0) invert(1);
 }
 
 .how-btm{
