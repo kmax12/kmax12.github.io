@@ -47,6 +47,15 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+
+a:focus {
+	color:#33afe5!important;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #1C5F7C!important;
+}
 /*-- Header Part Starts Here --*/
 .topbar{
 	/*background: url(../images/banner1.jpg) no-repeat;*/
