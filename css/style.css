@@ -79,6 +79,7 @@ body a:hover{
 
 .topbar.affix .logo img{
 	filter: none;
+	padding-top: 5px;
     -webkit-filter: none;
     -moz-filter: none;
     -o-filter: none;
