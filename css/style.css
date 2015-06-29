@@ -269,6 +269,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	width: 80%;
 	padding-top: 5px;
 	margin: auto;
+
 }
 .why-top img{
   width: 35%;
@@ -527,11 +528,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	padding-right: 10px;
 }
 .industries-main p {
-	color: #fff;
+	color: #333;
 	font-size: 1.5em;
 	font-weight: 200;
 	width: 80%;
-	padding-top: 5px;
+	padding-top: 0px;
 	margin: auto;
 }
 .industries-main{
