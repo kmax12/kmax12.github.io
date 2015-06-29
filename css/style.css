@@ -154,7 +154,7 @@ ul.navig li a:hover ul.navig li a:after{
 
 
 #banner { 
-    background: url(../images/banner1.jpg) 50% 0 fixed; 
+    background: url(../images/SiteImages/banner1.jpg) 50% 0 fixed; 
     height: auto;  
     margin: 0 auto; 
     width: 100%; 
@@ -227,7 +227,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 
 .banner-btm {
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 18%;
 }
 
 
