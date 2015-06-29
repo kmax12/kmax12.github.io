@@ -12,7 +12,14 @@ Off White Color: #f0f0f0f0;
 	width: 100%;
 	padding-top: 11px;
 	position: fixed;
-	background-color: #40c781;
+	background-color: #fff;
+}
+.topbar .logo img {
+	filter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
 }
 /*--Contact-Part-Starts-Here--*/
 .wufoo {
