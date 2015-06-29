@@ -3,53 +3,25 @@ Blue Color: #33afe5;
 Green Color: #40c781;
 Off White Color: #f0f0f0f0;
 */
+
+
+.topbar-contact{
+	height: 80px;
+	z-index: 1000;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 11px;
+	position: fixed;
+	background-color: #40c781;
+}
 /*--Contact-Part-Starts-Here--*/
-.contact{
-	background-color: #fff;
-	padding:7em 0px;
+.wufoo {
+  background-color: #33afe5;
 }
-.contact-main{
-	background-color: #33afe5;
-	margin: auto;
-	width: 80%;
-	padding: 3em 0px 2.5em 0;
-	border-radius: 0.3em;
-	-webkit-border-radius: 0.3em;
-	-moz-border-radius: 0.3em;
-	-o-border-radius: 0.3em;
-	-ms-border-radius: 0.3em;
+.wufoo .info, .wufoo .paging-context {
+  border-bottom: 0px;
 }
-.contact-main h3 {
-	color: #fff;
-	font-size: 2.7em;
-	font-weight: 400;
-	text-align: center;
-}
-.contact-main p {
-	color: #333;
-	font-size: 1.5em;
-	font-weight: 200;
-	width: 80%;
-	padding-top: 5px;
-	margin: auto;
-}
-.info h2{
-	color: #fff;
-	font-size: 2.7em;
-	font-weight: 400;
-	text-align: center;
-}	
-input.text {
-    border: 1px solid #222;
-    background: red;
-}
-.contact{
-}
-.contact-bottom{
-	text-align:center;
-	margin-top:10%;
-}
-.contact-bottom input[type="text"] {
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
 	width: 50%;
 	color: #999999;
 	outline: none;
@@ -66,26 +38,26 @@ input.text {
 	-o-border-radius: 0.3em;
 	-ms-border-radius: 0.3em;
 }
-.contact-bottom textarea {
-	resize: none;
-	width: 50%;
-	margin: 0 auto;
-	color: #999999;
-	font-size: 14px;
-	font-family: 'Lato', sans-serif;
-	outline: none;
-	padding: 15px 25px;
-	border: solid 1px #D5D4D4;
-	min-height: 13.2em;
-	-webkit-appearance: none;
-	font-weight: 700;
-	border-radius: 0.3em;
-	-webkit-border-radius: 0.3em;
-	-moz-border-radius: 0.3em;
-	-o-border-radius: 0.3em;
-	-ms-border-radius: 0.3em;
+.wufoo .info h2 {
+	color: #fff;
+	font-size: 2.7em;
+	font-weight: 400;
+	text-align: center;
 }
-.contact-but input[type="submit"] {
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+	margin: 2px 0 0;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 10px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	color: #999999;
+	outline: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+.wufoo input.btTxt{
 	border: none;
 	outline: none;
 	color: #fff;
@@ -103,12 +75,27 @@ input.text {
 	-o-border-radius: 0.3em;
 	-ms-border-radius: 0.3em;
 }
-.contact-but input[type="submit"]:hover {
+.wufoo input.btTxt:hover{
 	background: #363636;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
+}
+.contact{
+	background-color: #fff;
+	padding:7em 0px;
+}
+.contact-main{
+	background-color: #33afe5;
+	margin: auto;
+	width: 80%;
+	padding: 3em 0px 2.5em 0;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
 }
 /*--Contact-Part-Ends-Here--*/
