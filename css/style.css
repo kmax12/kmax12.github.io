@@ -154,7 +154,7 @@ ul.navig li a:hover ul.navig li a:after{
 
 
 #banner { 
-    background: url(../images/banner.jpg) 50% 0 fixed; 
+    background: url(../images/banner1.jpg) 50% 0 fixed; 
     height: auto;  
     margin: 0 auto; 
     width: 100%; 
@@ -205,7 +205,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	font-weight: 400;
-	font-size: 5.5em;
+	font-size: 5.0em;
 	width: 95%;
 	margin: 20px auto;
 	line-height: 1.4em;
