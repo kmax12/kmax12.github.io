@@ -569,6 +569,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	margin-top: 4%;
 	margin-right: 5%;
 }
+
+.inds-right a {
+	color: #333333;
+	background: #c2c5c5;
+	padding: 14px 17px;
+	position: relative;
+	margin: auto;
+	top: 25px;
+	left: 80px;
+	font-size: 17px;
+	font-weight: 700;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+.inds-right a:hover{
+	background:#c2c5c5;
+	text-decoration:none;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
 .inds-left{
 	width:10%;
 	float:left;
@@ -594,6 +621,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 }
 .col-md-4.industries-left:hover .inds-right p,.col-md-4.industries-left.active .inds-right p{
 	color:#fff;
+}
+.col-md-4.industries-left:hover .inds-right a,.col-md-4.industries-left.active .inds-right a{
+	background:#40c781;
+	text-decoration:none;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
 }
 .inds-one {
 	padding: 2.5em 0px;
