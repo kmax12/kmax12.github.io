@@ -14,13 +14,17 @@ Off White Color: #f0f0f0f0;
 	position: fixed;
 	background-color: #fff;
 }
-.topbar .logo img {
-	filter: none;
-    -webkit-filter: none;
-    -moz-filter: none;
-    -o-filter: none;
-    -ms-filter: none;
+ul.navig li a.active {
+	color: #33afe5;
 }
+
+.logo-contact img{
+	max-width: 200px;
+	display: inline-block;
+	float:left;
+	padding-top: 5px;
+}
+
 /*--Contact-Part-Starts-Here--*/
 .wufoo {
   background-color: #fff;

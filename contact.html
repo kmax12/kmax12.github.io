@@ -13,36 +13,21 @@
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="css/contact.css" rel='stylesheet' type='text/css' />
 <script src="js/jquery-1.11.0.min.js"></script>
-
-<!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/affix.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top-49},1000);
-				});
-			});
-</script>
-
-<!--end-smoth-scrolling-->
 </head>
 <body>
 <!--start-banner-->
 	<div class="topbar-contact">
 		<div class="header container">
-			<div class="logo">
+			<div class="logo-contact">
 				<a href="index.html"><img src="images/SiteImages/Logo_new.png" alt=""></a>
 			</div>
 			<div class="navigation">
 				<ul class="navig" type="disc">
-					<li><a href="#home" class="scroll">Home</a></li>
-					<li><a href="#why" class="scroll">Why FeatureLab?</a></li>
-					<li><a href="#how" class="scroll">How It Works</a></li>
-					<li><a href="#industries" class="scroll">Industries</a></li>
-					<li><a href="#contact" class="scroll">Contact</a></li>
+					<li><a href="index.html#home">Home</a></li>
+					<li><a href="index.html#why">Why FeatureLab?</a></li>
+					<li><a href="index.html#how">How It Works</a></li>
+					<li><a href="index.html#industries">Industries</a></li>
+					<li><a href="contact.html" class="scroll active">Contact</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
