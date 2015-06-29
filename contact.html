@@ -4,67 +4,76 @@
 <title>FeatureLab</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link rel="shortcut icon" href="fav/favicon.ico" type="image/x-icon" />
+
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <script src="js/jquery-1.11.0.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
 <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/affix.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
 					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					$('html,body').animate({scrollTop:$(this.hash).offset().top-49},1000);
 				});
 			});
-		</script>
+</script>
 
-<!--start-smoth-scrolling-->
+<!--end-smoth-scrolling-->
 </head>
 <body>
-<!--start-topbar-->
-	<div class="topbar">
-		<div class="container" id="home">
-			<div class="header">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt=""></a>
-				</div>
-				<div class="navigation">
-					 <span class="menu"></span> 
-						<ul class="navig">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="why.html">Why FeatureLab?</a></li>
-							<li><a href="approach.html">Our Approach</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="contact.html" class="active">Contact</a></li>
-						</ul>
-				</div>
-				<div class="clearfix"></div>
+<!--start-banner-->
+	<div class="topbar-contact">
+		<div class="header container">
+			<div class="logo">
+				<a href="index.html"><img src="images/SiteImages/Logo_new.png" alt=""></a>
 			</div>
-			<div class="clearfix"> </div>
+			<div class="navigation">
+				<ul class="navig" type="disc">
+					<li><a href="#home" class="scroll">Home</a></li>
+					<li><a href="#why" class="scroll">Why FeatureLab?</a></li>
+					<li><a href="#how" class="scroll">How It Works</a></li>
+					<li><a href="#industries" class="scroll">Industries</a></li>
+					<li><a href="#contact" class="scroll">Contact</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
-	<!--end-topbar-->
-
+	<!--end-banner-->
 	<!--start-contact-->
-
-	<div class="contact" id="contact">
+	<div class="contact">
 		<div class="container">
-			<div class="contact-top">
-				<img src="images/spl.png" alt="" />
-				<h3>What is Special About Atom App</h3>
-				<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
-			</div>
-			<div class="contact-bottom">
-				<input type="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}"/>
-				<input type="text" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}"/>
-				<textarea value="Your Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message';}">Your Message</textarea>
-				<div class="contact-but">
-							<input type="submit" value="SEND MESSAGE" />
-						</div>
+			<div class='contact-main'>
+				<h3>Hello World</h3>
+					<div id="wufoo-m169g65p1yfj25u">
+					Fill out my <a href="https://kmax12.wufoo.com/forms/m169g65p1yfj25u">online form</a>.
+					</div>
+					<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/partners/">Wufoo integrations</a> and get your data to your favorite apps.</div>
+					<script type="text/javascript">var m169g65p1yfj25u;(function(d, t) {
+					var s = d.createElement(t), options = {
+					'userName':'kmax12',
+					'formHash':'m169g65p1yfj25u',
+					'autoResize':true,
+					'height':'673',
+					'async':true,
+					'host':'wufoo.com',
+					'header':'show',
+					'ssl':true};
+					s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+					s.onload = s.onreadystatechange = function() {
+					var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+					try { m169g65p1yfj25u = new WufooForm();m169g65p1yfj25u.initialize(options);m169g65p1yfj25u.display(); } catch (e) {}};
+					var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+					})(document, 'script');</script>
 			</div>
 		</div>
 	</div>
@@ -73,31 +82,9 @@
 	<div class="footer">
 		<div class="container">
 			<div class="footer-main">
-				<p>&copy 2015 Atom. Template by<a href="http://w3layouts.com/"> w3layouts</a></p>
-				<ul>
-					<li><a href="#"><span class="fb"> </span></a></li>
-					<li><a href="#"><span class="twt"> </span></a></li>
-					<li><a href="#"><span class="p"> </span></a></li>
-					<li><a href="#"><span class="d"> </span></a></li>
-				</ul>
+				<p>&copy Copyright 2015 FeatureLab - All Rights Reserved.</p>
 			</div>
 		</div>
-		 <script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	</div>
 	<!--end-footer-->
 </body>
