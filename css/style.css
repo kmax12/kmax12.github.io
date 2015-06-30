@@ -243,6 +243,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	float:left;
 }
 /*--Tech-Part-Ends-Here--*/
+/* Card, Dialog */
+.card, .dialog {
+  width: 90%;
+  margin: auto;
+  background-color: #33afe5;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  margin: 2% auto 2% auto;
+  color: #fff;
+}
 /*--Why-Part-Starts-Here--*/
 .why {
 	background: #33afe5;
@@ -467,15 +476,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	font-size: 24px;
 	line-height: 1.4em;
 	font-weight: 200;
-	/*padding: 2% 3% 2% 3%;*/
 }
 .how-body-text p span{
 	color:#3399cc;
-	/*margin-left:4px;*/
+}
+.how-body-quote p {
+	font-size: 2.5em;
+	line-height: 1.4em;
+	font-weight: 200;
+	padding: 4% 0 2% 0;
+	margin-left: 49px;
 }
 .how-body-img{
 	margin-top: 0%;
-	/*padding: 3em 0px 2.5em 0;*/
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
 	-moz-border-radius: 0.3em;
