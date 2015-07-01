@@ -759,6 +759,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 #banner {
 	min-height: 600px;
 }
+.banner-bottom h1 {
+	font-size: 2.5em;
+}
+.banner-bottom p {
+	font-size: 1.8em;
+	margin-top: 5px;
+	width: 85%;
+}	
 .banner-btm {
 	text-align: center;
 	margin-top: 18%;
@@ -800,6 +808,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 .navigation{
 	display: none !important;
 	visibility: hidden !important;
+}
+.banner-bottom h1 {
+	font-size: 2.5em;
+}
+.banner-bottom p {
+	font-size: 1.8em;
+	margin-top: 5px;
+	width: 85%;
+}	
+.banner-btm {
+	margin-top: 35%;
 }	
 }
 @media (max-width:768px){
@@ -815,21 +834,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 }
 .who h1{
 	font-size: 1.5em;
+}
+.banner-bottom h1 {
+	font-size: 2.5em;
+}
+.banner-bottom p {
+	font-size: 1.8em;
+	margin-top: 5px;
+	width: 85%;
 }	
+.banner-btm {
+	margin-top: 35%;
+}
 }
 @media (max-width:640px){
 .logo img {
 	width: 80%;
 }
 .banner-bottom h1 {
-	font-size: 2.0em;
+	font-size: 1.8em;
+}
+.banner-bottom p {
+	font-size: 1.2em;
+	margin-top: 5px;
+	width: 85%;
 }
 .fab-who{
 	top: -25px;
-}
-.banner-bottom p {
-	font-size: 14px;
-	margin-top: 7px;
 }
 #banner,.back-tint {
 	min-height: 390px;
