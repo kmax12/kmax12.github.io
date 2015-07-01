@@ -753,21 +753,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 }
 @media (max-width:1366px){
 }
-@media (max-width: 360px){
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
 #banner {
 	min-height: 600px;
-}
-.banner-bottom h1 {
-	font-size: 2.5em;
-}
-.banner-bottom p {
-	font-size: 1.8em;
-	margin-top: 5px;
-	width: 85%;
-}	
-.banner-btm {
-	text-align: center;
-	margin-top: 25%;
 }
 .topbar{
 	min-height: 74px;
