@@ -753,9 +753,56 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 }
 @media (max-width:1366px){
 }
-@media (max-width:1280px){
+@media (max-width:1200px){
+#banner {
+	min-height: 600px;
 }
-@media (max-width:1024px){
+.banner-bottom h1 {
+	font-size: 2.5em;
+}
+.banner-bottom p {
+	font-size: 1.8em;
+	margin-top: 5px;
+	width: 85%;
+}	
+.banner-btm {
+	text-align: center;
+	margin-top: 25%;
+}
+.topbar{
+	min-height: 74px;
+}
+.demo-left p {
+	font-size: 1.8em;
+}
+.demo-right a {
+	padding: 13px 15px;
+	font-size: 16px;
+}
+.footer {
+	padding: 2em 0px;
+}
+.footer-main p {
+	font-size: 16px;
+	margin: 4px 0px;
+}
+.logo img {
+	width: 85%;
+}
+.who p, .who li, .how p, .industries p{
+	font-size: 1.3em;
+}
+.why-quote p, .how-quote p{
+	font-size: 2.0em;
+}
+.why h3, .how h3, .industries h3{
+	font-size: 2.3em;
+}
+.who h1{
+	font-size: 1.5em;
+}	
+}
+@media (max-width:980px){
 #banner {
 	min-height: 600px;
 }
