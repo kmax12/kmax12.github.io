@@ -757,6 +757,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 #banner {
 	min-height: 600px;
 }
+.banner-bottom h1 {
+	font-size: 1.5em;
+}
+.banner-bottom p {
+	font-size: 1.1em;
+	margin-top: 5px;
+	width: 85%;
+}	
 .topbar{
 	min-height: 74px;
 }
