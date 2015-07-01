@@ -753,7 +753,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 }
 @media (max-width:1366px){
 }
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+@media (min-device-width: 360px) and (max-device-height: 640px){
 #banner {
 	min-height: 600px;
 }
