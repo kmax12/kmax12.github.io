@@ -382,6 +382,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7340c781', e
 	padding: 6em 0px 7em 0px;
 	position: relative;
 	z-index: 800;
+ 	overflow-x:hidden;
 }
 .how-top{
 	text-align:center;
