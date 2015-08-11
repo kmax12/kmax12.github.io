@@ -60,11 +60,11 @@ a:hover{
 .topbar{
 	/*background: url(../images/banner1.jpg) no-repeat;*/
 	/*background-size: cover;*/
-	height: 80px;
+	height: 6g0px;
 	z-index: 1000;
 	overflow: hidden;
 	width: 100%;
-	padding-top: 11px;
+	padding-top: 0px;
 	position: fixed;
 	background-color: transparent;
 }
@@ -125,7 +125,7 @@ ul.navig li {
 ul.navig li a {
 	text-decoration: none;
 	padding: 11px 7px;
-	font-size: 20px;
+	font-size: 17px;
 }
 /*ul.navig li a:hover,ul.navig li a.active {
 	transition: 0.5s all;
