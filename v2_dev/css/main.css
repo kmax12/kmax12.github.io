@@ -46,6 +46,10 @@ html{
 }
 
 
+.footer-indent{
+	margin-left:10px;
+}
+
 .brand-logo img{
 	height: 46px;
     margin-top: 10px;
