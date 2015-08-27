@@ -10,6 +10,10 @@ a.anchor {
     visibility: hidden;
 }
 
+html{
+	color: #424242;
+}
+
 .section{
 	padding: 20px 0px;
 	margin-bottom: 0px;
@@ -19,16 +23,16 @@ a.anchor {
 	background: #fff;
 }
 
-.grey-bg{
-	background: #f0f0f0;
+.grey-bg, .bg:nth-child(odd){
+	background: #E9E9E9;
 }
 
-.blue-bg{
-	background: #33afe5;
+.blue-bg, .bg:nth-child(even){
+	background: #26ADE4;
 	color: #fff;
 }
 
-.blue-bg a{
+.blue-bg a, .bg:nth-child(even) a{
 	color: #fff;
 }
 
@@ -134,7 +138,7 @@ a.anchor {
 }
 
 .placeholder-icon{
-	border: 6px solid rgb(253, 117, 38);
+	border: 6px solid #FF9900;
     height: 60px;
     width: 60px;
     border-radius: 22px;
@@ -160,8 +164,10 @@ a.anchor {
 }
 
 .industry-container{
-	height: 125px;
+	padding: 20px;
+	text-align: center;
 }
+
 
 .industry-container:hover{
     background: #D7EFFA;
@@ -175,5 +181,8 @@ a.anchor {
 	text-align: center;
     font-weight: 300;
     font-size: 26px;
+}
+.industry-more{
+	margin-bottom: 5px;
 }
 

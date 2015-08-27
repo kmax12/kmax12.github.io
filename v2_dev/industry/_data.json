@@ -1,0 +1,20 @@
+{
+	"retail" : {
+		"name" : "Retail"
+	},
+	"ecommerce" : {
+		"name" : "E-Commerce"
+	},
+	"crowdfunding" : {
+		"name" : "Crowdfunding"
+	},
+	"education" : {
+		"name" : "Education"
+	},
+	"finance" : {
+		"name" : "Financial Services"
+	},
+	"government" : {
+		"name" : "Government"
+	}
+}

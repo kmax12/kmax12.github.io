@@ -1,13 +1,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
-    
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+      
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 
@@ -16,13 +17,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
     <div class="navbar-fixed">
 	<nav class="white-bg">
 	  <div class="nav-wrapper">
-	    <a href="#!" class="brand-logo"><img src="img/logo.png" alt=""></a>
+	    <a href="#!" class="brand-logo"><img src="/img/logo.png" alt=""></a>
 	    <!-- <ul class="right hide-on-med-and-down">
 	      <li><a href="sass.html">Sass</a></li>
 	      <li><a href="badges.html">Components</a></li>
@@ -31,26 +32,30 @@
 	  </div>
 	</nav>
 </div>
-    <div class="blue-bg">
-	    <div class="container section">
-	    	<!-- <div class="row">
-	    		<div class="col s12">
-	    			<h2>Industries</h2>
-	    		</div>
-	    	</div> -->
-	    	<div class="row">
-	    		<div class="col s12 center-align"> <h3 class="main-header">There is valuable data in every Industry</h3></div>
-	    		<div class="col s12 offset-m3 m6">
-	    			<div class="sub-header">
-	    				<h5>Data science expertise is the standard for any company to be competitive across all industries.</h5>
-						<p>FeatureLab provides the best cross-domain tools for any company to gain competitive advantages in their field of business. See how FeatureLab can help your company turn data into value.</p>
-					</div>
-	    		</div>
-	    	</div>
-	    </div>
-	</div>
+    
+    <!-- If the current page is industry/ but not blog/index.ejs… -->
+    
+    <!-- Otherwise, render the yield -->
+        <div class="bg blue-bg">
+    <div class="container section">
+    	<!-- <div class="row">
+    		<div class="col s12">
+    			<h2>Industries</h2>
+    		</div>
+    	</div> -->
+    	<div class="row">
+    		<div class="col s12 center-align"> <h3 class="main-header">There is valuable data in every Industry</h3></div>
+    		<div class="col s12 offset-m3 m6">
+    			<div class="sub-header">
+    				<h5>Data science expertise is the standard for any company to be competitive across all industries.</h5>
+					<p>FeatureLab provides the best cross-domain tools for any company to gain competitive advantages in their field of business. See how FeatureLab can help your company turn data into value.</p>
+				</div>
+    		</div>
+    	</div>
+    </div>
+</div>
 
-	<div class="grey-bg">
+	<div class="bg grey-bg">
 	    <div id="demo-section" class="container section">
 	    	<a class="anchor" id="demo"></a>
 	    	<!-- Cloud
@@ -64,77 +69,113 @@
 		</div>
 	</div>
 
-	<div class="blue-bg">
+	<div class="bg blue-bg">
 	    <div id="industries-section" class="container section">
 	    	<a class="anchor" id="industries"></a>
 	    	<!-- Cloud
 			Run FeatureLab in a secure cloud
 			 -->
 			<div class="row industries-container">
-				<div class="col s12 m4">
-					<div class="industry-container">
-						<div class="industry-header">Retail</div>
-						<div class="industry-icon">
-							<div class="placeholder-icon"></div>
+				
+					<div class="col s12 m4">
+						<div class="industry-container">
+							<div class="industry-header">Retail</div>
+							<div class="industry-more"> <a href="/industry/retail">Read more</a> </div>
+							<div class="industry-icon">
+								<div class="placeholder-icon"></div>
+							</div>
 						</div>
-					</div>
-	    		</div>
-	    		<div class="col s12 m4">
-	    			<div class="industry-container">
-						<div class="industry-header">E-Commerce</div>
-						<div class="industry-icon">
-							<div class="placeholder-icon"></div>
+		    		</div>
+
+	            
+					<div class="col s12 m4">
+						<div class="industry-container">
+							<div class="industry-header">E-Commerce</div>
+							<div class="industry-more"> <a href="/industry/ecommerce">Read more</a> </div>
+							<div class="industry-icon">
+								<div class="placeholder-icon"></div>
+							</div>
 						</div>
-					</div>
-	    		</div>
-	    		<div class="col s12 m4">
-	    			<div class="industry-container">
-						<div class="industry-header">Financial Services</div>
-						<div class="industry-icon">
-							<div class="placeholder-icon"></div>
+		    		</div>
+
+	            
+					<div class="col s12 m4">
+						<div class="industry-container">
+							<div class="industry-header">Crowdfunding</div>
+							<div class="industry-more"> <a href="/industry/crowdfunding">Read more</a> </div>
+							<div class="industry-icon">
+								<div class="placeholder-icon"></div>
+							</div>
 						</div>
-					</div>
-	    		</div>
-	    		<div class="col s12 m4">
-	    			<div class="industry-container">
-						<div class="industry-header">Government</div>
-						<div class="industry-icon">
-							<div class="placeholder-icon"></div>
+		    		</div>
+
+	            
+					<div class="col s12 m4">
+						<div class="industry-container">
+							<div class="industry-header">Education</div>
+							<div class="industry-more"> <a href="/industry/education">Read more</a> </div>
+							<div class="industry-icon">
+								<div class="placeholder-icon"></div>
+							</div>
 						</div>
-					</div>
-	    		</div>
-	    		<div class="col s12 m4">
-	    			<div class="industry-container">
-						<div class="industry-header">Crowdfunding</div>
-						<div class="industry-icon">
-							<div class="placeholder-icon"></div>
+		    		</div>
+
+	            
+					<div class="col s12 m4">
+						<div class="industry-container">
+							<div class="industry-header">Financial Services</div>
+							<div class="industry-more"> <a href="/industry/finance">Read more</a> </div>
+							<div class="industry-icon">
+								<div class="placeholder-icon"></div>
+							</div>
 						</div>
-					</div>
-	    		</div>
-	    		<div class="col s12 m4">
-	    			<div class="industry-container">
-						<div class="industry-header">Education</div>
-						<div class="industry-icon">
-							<div class="placeholder-icon"></div>
+		    		</div>
+
+	            
+					<div class="col s12 m4">
+						<div class="industry-container">
+							<div class="industry-header">Government</div>
+							<div class="industry-more"> <a href="/industry/government">Read more</a> </div>
+							<div class="industry-icon">
+								<div class="placeholder-icon"></div>
+							</div>
 						</div>
-					</div>
-	    		</div>
+		    		</div>
+
+	              
+				
+	    		
 			</div>
 		</div>
 	</div>
-    <div class="blue-bg">
+    
+
+    <div class="bg">
       <div id="footer" class="container section">
         <!-- Cloud
       Run FeatureLab in a secure cloud
        -->
       <div class="row">
         <div class="col s4">
-          <p><a href="index.html">Home</a></p>
-          <p><a href="index.html#why">Why FeatureLab?</a></p>
-          <p><a href="index.html#features">Product Features</a></p>
+          <p><a href="/">Home</a></p>
+          <p><a href="/#why">Why FeatureLab?</a></p>
+          <p><a href="/#features">Product Features</a></p>
           </div>
           <div class="col s4">
-            <p><a href="industries.html">Industries</a></p>
+            <p><a href="/industries">Industries</a></p>
+            
+              <p><a href="/industry/retail">Retail</a></p>
+            
+              <p><a href="/industry/ecommerce">E-Commerce</a></p>
+            
+              <p><a href="/industry/crowdfunding">Crowdfunding</a></p>
+            
+              <p><a href="/industry/education">Education</a></p>
+            
+              <p><a href="/industry/finance">Financial Services</a></p>
+            
+              <p><a href="/industry/government">Government</a></p>
+                        
           </div>
           <div class="col s4">
           </div>
