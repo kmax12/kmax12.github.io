@@ -1,0 +1,53 @@
+{
+	"features" : [
+		{
+			"header" : "Intelligent",
+			"body" : "Use the newest technology to transform raw data into explanatory variables."
+		},
+		{
+			"header" : "Flexible Import",
+			"body" : "Connect to existing databases and upload spreadsheets or text files"
+		},
+		{
+			"header" : "Predict",
+			"body" : "Select a prediction problem with a click and FeauteLab does the rest"
+		},
+		{
+			"header" : "Scale",
+			"body" : "Use all of your data to achieve best results"
+		},
+		{
+			"header" : "Harness Domain Expertise",
+			"body" : "Tune variables to create the best model for your business needs"
+		},
+		{
+			"header" : "High performance",
+			"body" : "Automatically create models that are as accurate as human-created models"
+		},
+		{
+			"header" : "Actionable Insights",
+			"body" : "Simulate new inputs and determine how different actions will affect future outcomes"
+		},
+		{
+			"header" : "Export Predictions",
+			"body" : "Upload unlabeled data and download predictions."
+		},
+		{
+			"header" : "On-premise",
+			"body" : "Install FeatureLab on-premise"
+		},
+		{
+			"header" : "Cloud",
+			"body" : "Run FeatureLab in a secure cloud"
+		},
+		{
+			"header" : "Integrate",
+			"body" : "Use FeatureLab with your existing architecture"
+		},
+		{
+			"header" : "Fun",
+			"body" : "Enjoyable software that you will want to use"
+		}
+	]
+}
+
