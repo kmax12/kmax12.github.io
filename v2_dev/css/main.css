@@ -20,7 +20,7 @@ html{
 }
 
 .white-bg{
-	background: #fff;
+	background: #fff!important;
 }
 
 .grey-bg, .bg:nth-child(odd){

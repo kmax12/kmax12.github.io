@@ -36,30 +36,6 @@
     <!-- Otherwise, render the yield -->
         <%- yield %>
     <% } %>
-    <div class="bg">
-      <div id="footer" class="container section">
-        <!-- Cloud
-      Run FeatureLab in a secure cloud
-       -->
-      <div class="row">
-        <div class="col s6 m4 l3">
-          <p><a href="<%- root %>">Home</a></p>
-          <p><a href="<%- root %> #why">Why FeatureLab?</a></p>
-          <p><a href="<%- root %>#features">Product Features</a></p>
-          <p><a href="<%- root %>how-it-works">How it works</a></p>
-          </div>
-          <div class="col s6 m4 l3">
-            <p><a href="<%- root %>industry">Industries</a></p>
-            <% for(var i in public.industry._data){ %>
-              <p class="footer-indent"><a href="<%-root%>industry/<%- i %>"><%- public.industry._data[i].name %></a></p>
-            <% }; %>            
-          </div>
-          <div class="col s4">
-          </div>
-      </div>
-
-      
-        
-      </div>
+    <%- partial("_footer", {"root": root}) %>
   </body>
 </html>

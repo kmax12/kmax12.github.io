@@ -17,43 +17,33 @@
     </div>
 </div>
 
-	<div class="bg grey-bg">
-	    <div id="demo-section" class="container section">
-	    	<a class="anchor" id="demo"></a>
-	    	<!-- Cloud
-			Run FeatureLab in a secure cloud
-			 -->
-			<div class="row">
-				<div class="col s12">
-					<div class="demo-header center-align"><a class="waves-effect waves-light btn-large green-bg">Request a demo </a></div>
-	    		</div>
-			</div>
-		</div>
-	</div>
+<%- partial("../_contact") %>
 
-	<div class="bg blue-bg">
-	    <div id="industries-section" class="container section">
-	    	<a class="anchor" id="industries"></a>
-	    	<!-- Cloud
-			Run FeatureLab in a secure cloud
-			 -->
-			<div class="row industries-container">
-				<% for(var i in public.industry._data){ %>
-					<div class="col s12 m6 l4">
-						<a href="/industry/<%- i %>" >
-							<div class="industry-container">
-								<div class="industry-header"><%- public.industry._data[i].name %></div>
-								<!-- <div class="industry-more" > <a href="/industry/<%- i %>">Read more</a> </div> -->
-								<div class="industry-icon">
-									<div class="placeholder-icon"></div>
-								</div>
+
+<div class="bg blue-bg">
+    <div id="industries-section" class="container section">
+    	<a class="anchor" id="industries"></a>
+    	<!-- Cloud
+		Run FeatureLab in a secure cloud
+		 -->
+		<div class="row industries-container">
+			<% for(var i in public.industry._data){ %>
+				<div class="col s12 m6 l4">
+					<a href="/industry/<%- i %>" >
+						<div class="industry-container">
+							<div class="industry-header"><%- public.industry._data[i].name %></div>
+							<!-- <div class="industry-more" > <a href="/industry/<%- i %>">Read more</a> </div> -->
+							<div class="industry-icon">
+								<div class="placeholder-icon"></div>
 							</div>
-						</a>
-		    		</div>
+						</div>
+					</a>
+	    		</div>
 
-	            <% }; %>  
-				
-	    		
-			</div>
+            <% }; %>  
+			
+    		
 		</div>
 	</div>
+</div>
+
