@@ -11,6 +11,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
       
     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="<%-root%>css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
@@ -18,7 +19,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 
 
-    <link rel="stylesheet" href="<%-root%>css/main.css">
 
 
 
@@ -31,7 +31,7 @@
     <!-- If the current page is industry/ but not blog/index.ejs… -->
     <% if(current.path[0] == "industry" && current.source !== 'index') { %>
       <!-- Render the partial blog/_nest -->
-      <%- partial(current.path[0] + "/_nest") %>
+      <%- partial(current.path[0] + "/_nest", {"root": root}) %>
     <% } else { %>
     <!-- Otherwise, render the yield -->
         <%- yield %>
