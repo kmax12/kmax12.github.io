@@ -1,3 +1,5 @@
+<% var root = (environment == "production") ? "/v2/" : "/" %>
+
 <div class="bg blue-bg">
     <div class="container section">
     	<!-- <div class="row">
@@ -29,7 +31,7 @@
 		<div class="row industries-container">
 			<% for(var i in public.industry._data){ %>
 				<div class="col s12 m6 l4">
-					<a href="/industry/<%- i %>" >
+					<a href="<%-root%>industry/<%- i %>" >
 						<div class="industry-container">
 							<div class="industry-header"><%- public.industry._data[i].name %></div>
 							<!-- <div class="industry-more" > <a href="/industry/<%- i %>">Read more</a> </div> -->
