@@ -14,6 +14,9 @@ html{
 	color: #424242;
 }
 
+.top20{
+	margin-top: 20px;
+}
 .section{
 	padding: 20px 0px;
 	margin-bottom: 0px;
@@ -28,7 +31,7 @@ html{
 }
 
 .blue-bg, .bg:nth-child(even){
-	background: #256D8B;
+	background: rgb(46, 120, 152);
 	color: #fff;
 }
 
@@ -209,7 +212,9 @@ html{
 
 
 
-
+#transforming-industries .body>div{
+	font-size: 20px;
+}
 
 
 

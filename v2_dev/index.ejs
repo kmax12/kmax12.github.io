@@ -20,13 +20,42 @@
 
     		<div class="col s12 m6">
     			<div class="video-container">
-    				<iframe src="https://www.youtube.com/embed/0asEB-l7mUQ" frameborder="0" allowfullscreen></iframe>
+    				<iframe src="https://player.vimeo.com/video/137993208?badge=0&byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    				<!-- 
+    				<iframe src="https://www.youtube.com/embed/0asEB-l7mUQ" frameborder="0" allowfullscreen></iframe> -->
     			</div>
     		</div>
     	</div>
     </div>
 </div>
 
+<div class="bg">
+    <div id="features-section" class="container section">
+    	<a class="anchor" id="features"></a>
+    	<!-- Cloud
+		
+		 -->
+		<div class="row">
+			<div class="col s12">
+				<div class="section-header center-align">Features</div>
+    		</div>
+		</div>
+    	<div  class="row feature-container">
+
+    		<% for(var f in public._data.features){ %>
+					<div class="col s12 m6 l4">
+		    			<div class="feature-icon"><div class="placeholder-icon"></div></div>
+		    			<div class="feature-text">
+			    			<div class="feature-header"><%- public._data.features[f].header %></div>
+			    			<div class="feature-body"><%- public._data.features[f].body %></div>
+		    			</div>
+		    		</div>
+
+            <% }; %>  
+    	</div>
+    </div>
+</div>
 
 
 <div class="bg">
@@ -73,31 +102,6 @@
 
 
 
-<div class="bg">
-    <div id="features-section" class="container section">
-    	<a class="anchor" id="features"></a>
-    	<!-- Cloud
-		
-		 -->
-		<div class="row">
-			<div class="col s12">
-				<div class="section-header center-align">Features</div>
-    		</div>
-		</div>
-    	<div  class="row feature-container">
 
-    		<% for(var f in public._data.features){ %>
-					<div class="col s12 m6 l4">
-		    			<div class="feature-icon"><div class="placeholder-icon"></div></div>
-		    			<div class="feature-text">
-			    			<div class="feature-header"><%- public._data.features[f].header %></div>
-			    			<div class="feature-body"><%- public._data.features[f].body %></div>
-		    			</div>
-		    		</div>
+<%- partial("_industries") %>
 
-            <% }; %>  
-    	</div>
-    </div>
-</div>
-
-<%- partial("_contact") %>
