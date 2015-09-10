@@ -45,7 +45,7 @@
 
     		<% for(var f in public._data.features){ %>
 					<div class="col s12 m6 l4">
-		    			<div class="feature-icon"><div class="placeholder-icon"></div></div>
+		    			<div class="feature-icon"><img src="<%- root %><%- public._data.features[f].icon %>"  /></div>
 		    			<div class="feature-text">
 			    			<div class="feature-header"><%- public._data.features[f].header %></div>
 			    			<div class="feature-body"><%- public._data.features[f].body %></div>

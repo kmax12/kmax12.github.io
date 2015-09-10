@@ -164,6 +164,13 @@ html{
     /*margin: 17px 5px 0 0;*/
 }
 
+.feature-icon > img{
+	height: 60px;
+    width: 60px;
+    margin: auto;
+    display: block;
+}
+
 .placeholder-icon{
 	border: 6px solid #FF9900;
     height: 60px;

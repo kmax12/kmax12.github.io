@@ -2,51 +2,63 @@
 	"features" : [
 		{
 			"header" : "Intelligent",
-			"body" : "Use advanced technology to transform raw data into explanatory variables"
+			"body" : "Use advanced technology to transform raw data into explanatory variables",
+			"icon" : "img/icons/Intelligent.png"
 		},
 		{
 			"header" : "Easy Integration",
-			"body" : "Incorporate into existing infrastructure."
+			"body" : "Incorporate into existing infrastructure.",
+			"icon" : "img/icons/Easy Integration.png"
 		},
 		{
 			"header" : "Predict",
-			"body" : "Select a prediction problem with a click and FeauteLab does the rest"
+			"body" : "Select a prediction problem with a click and FeauteLab does the rest",
+			"icon" : "img/icons/Predict.png"
 		},
 		{
 			"header" : "Harness Human Expertise",
-			"body" : "Use your domain expertise to tune models for your business needs"
+			"body" : "Use your domain expertise to tune models for your business needs",
+			"icon" : "img/icons/Harness Human Expertise.png"
 		},
 		{
 			"header" : "Effortlessly Scale",
-			"body" : "Take advantage of all of your data and achieve superior results"
+			"body" : "Take advantage of all of your data and achieve superior results",
+			"icon" : "img/icons/Effortlessly Scale.png"
 		},
 		{
 			"header" : "Flexible Data Import",
-			"body" : "Connect to existing databases and upload spreadsheets or text files"
+			"body" : "Connect to existing databases and upload spreadsheets or text files",
+			"icon" : "img/icons/Flexible Data Import.png"
 		},
 		{
 			"header" : "High performance",
-			"body" : "Automatically create models that are as accurate as human-created models"
+			"body" : "Automatically create models that are as accurate as human-created models",
+			"icon" : "img/icons/High performance.png"
 		},
 		{
 			"header" : "Actionable Insights",
-			"body" : "Simulate new inputs and determine how different actions will affect future outcomes"
+			"body" : "Simulate new inputs and determine how different actions will affect future outcomes",
+			"icon" : "img/icons/Actionable Insight.png"
 		},
 		{
 			"header" : "Export Predictions",
-			"body" : "Upload unlabeled data and download batch predictions."
+			"body" : "Upload unlabeled data and download batch predictions.",
+			"icon" : "img/icons/Export Predictions.png"
 		},
 		{
 			"header" : "On-premise",
-			"body" : "Install FeatureLab on-premise"
+			"body" : "Install FeatureLab on-premise",
+			"icon" : "img/icons/On-premise.png"
 		},
 		{
 			"header" : "Cloud",
-			"body" : "Run FeatureLab in a secure cloud"
+			"body" : "Run FeatureLab in a secure cloud",
+			"icon" : "img/icons/Cloud.png"
 		},
 		{
 			"header" : "Fun",
-			"body" : "Software that is built to be enjoyable to use"
+			"body" : "Software that is built to be enjoyable to use",
+			"icon" : "img/icons/Fun.png"
 		}
 	]
 }
