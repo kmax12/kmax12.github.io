@@ -14,6 +14,21 @@ html{
 	color: #424242;
 }
 
+
+.bg:nth-child(odd):after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/noisy_grid.png); 
+    /*background-size: cover;*/
+    width: 100%;
+    height: 100%;
+    opacity : 0.6;
+    z-index: -1;
+}
+
 .top20{
 	margin-top: 20px;
 }
@@ -26,9 +41,14 @@ html{
 	background: #fff!important;
 }
 
-.grey-bg, .bg:nth-child(odd){
-	background: #E9E9E9;
+.bg{
+	position: relative;
 }
+
+/*.grey-bg, .bg:nth-child(odd){*/
+	/*background: #E9E9E9;*/
+	/*background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/noisy_grid.png); */
+/*}*/
 
 .blue-bg, .bg:nth-child(even){
 	background: rgb(46, 120, 152);
