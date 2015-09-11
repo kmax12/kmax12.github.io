@@ -164,9 +164,9 @@ html{
 	 position: absolute;
     top: -30px;
     background-color: rgb(46, 120, 152);
-    padding: 12px;
+    /*padding: 12px;*/
     border-radius: 71px;
-    border: solid #444 3px;
+    /*border: solid #444 3px;*/
 
 }
 
@@ -179,7 +179,7 @@ html{
 }
 
 .why-icon img{
-	width: 60px;
+	width: 90px;
 }
 
 
