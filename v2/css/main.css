@@ -132,7 +132,8 @@ html{
 
 
 .why-container{
-	padding: 30px 25px 23px 25px !important;
+	padding: 35px 30px 28px 30px !important;
+	position: relative;
 }
 .why-header{
 	font-size: 26px;
@@ -157,6 +158,28 @@ html{
 
 .why-bullets li {
 	list-style-type: disc;
+}
+
+.why-icon{
+	 position: absolute;
+    top: -30px;
+    background-color: rgb(46, 120, 152);
+    padding: 12px;
+    border-radius: 71px;
+    border: solid #444 3px;
+
+}
+
+.why-icon-left{
+	left: -30px
+}
+
+.why-icon-right{
+	right: -30px
+}
+
+.why-icon img{
+	width: 60px;
 }
 
 
@@ -244,6 +267,19 @@ html{
 	width: 105px;
 }
 
+#industry-body{
+	font-size: 20px;
+}
+
+#industry-body p:nth-child(2){
+	font-size: 24px;
+}
+
+#industry-body .industry-icon{
+	width: 150px;
+    float: left;
+    margin: 20px 10px 5px 10px;
+}
 
 
 
