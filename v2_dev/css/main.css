@@ -162,24 +162,24 @@ html{
 
 .why-icon{
 	 position: absolute;
-    top: -30px;
-    background-color: rgb(46, 120, 152);
+    top: -40px;
+    /*background-color: rgb(46, 120, 152);*/
     /*padding: 12px;*/
-    border-radius: 71px;
+    /*border-radius: 71px;*/
     /*border: solid #444 3px;*/
 
 }
 
 .why-icon-left{
-	left: -30px
+	left: -40px
 }
 
 .why-icon-right{
-	right: -30px
+	right: -40px
 }
 
 .why-icon img{
-	width: 90px;
+	width: 120px;
 }
 
 
