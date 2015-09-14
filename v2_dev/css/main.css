@@ -12,6 +12,7 @@ a.anchor {
 
 html{
 	color: #424242;
+	overflow-x: hidden;
 }
 
 body{
