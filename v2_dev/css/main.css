@@ -19,6 +19,7 @@ body{
 }
 
 
+
 .bg:nth-child(odd):after {
     content : "";
     display: block;
@@ -59,12 +60,19 @@ blockquote{
 /*}*/
 
 .blue-bg, .bg:nth-child(even){
-	background: rgb(46, 120, 152);
+	background-color: rgb(46, 120, 152);
 	color: #fff;
 }
 
 .blue-bg a, .bg:nth-child(even) a{
 	color: #fff;
+}
+
+.cube-bg{
+	background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+}
+.gplay-bg{
+	background-image: url(http://www.transparenttextures.com/patterns/gplay.png);*/
 }
 
 .btn{
