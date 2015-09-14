@@ -20,19 +20,18 @@ body{
 
 
 
-.bg:nth-child(odd):after {
+/*.bg:nth-child(odd):after {
     content : "";
     display: block;
     position: absolute;
     top: 0;
     left: 0;
     background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/noisy_grid.png); 
-    /*background-size: cover;*/
     width: 100%;
     height: 100%;
     opacity : 0.6;
     z-index: -1;
-}
+}*/
 
 .top20{
 	margin-top: 20px;
@@ -48,19 +47,24 @@ body{
 
 .bg{
 	position: relative;
+	background-image: url(http://www.transparenttextures.com/patterns/absurdity.png);
 }
 
 blockquote{
 	border-left: 5px solid #FB9828!important;
 }
 
-/*.grey-bg, .bg:nth-child(odd){*/
+.grey-bg, .bg:nth-child(odd){*/
 	/*background: #E9E9E9;*/
 	/*background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/noisy_grid.png); */
-/*}*/
+	background-color: #f3f3f3;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
 .blue-bg, .bg:nth-child(even){
 	background-color: rgb(46, 120, 152);
+	background-image: url(http://www.transparenttextures.com/patterns/absurdity.png);
+
 	color: #fff;
 }
 
@@ -69,10 +73,11 @@ blockquote{
 }
 
 .cube-bg{
-	background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+	background-image: url(http://www.transparenttextures.com/patterns/cubes.png)!important;
 }
 .gplay-bg{
-	background-image: url(http://www.transparenttextures.com/patterns/gplay.png);*/
+	background-image: url(http://www.transparenttextures.com/patterns/gplay.png)!important;
+
 }
 
 .btn{
@@ -327,6 +332,7 @@ blockquote{
 .services{
 	font-size: 24px;
 	padding: 0 40px;
+	margin: 0px;
 }
 
 
