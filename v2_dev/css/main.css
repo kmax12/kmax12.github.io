@@ -189,14 +189,62 @@ blockquote{
 	left: -40px
 }
 
-.why-icon-right{
+/*.why-icon-right{
 	right: -40px
-}
+}*/
 
 .why-icon img{
 	width: 120px;
 }
 
+@media only screen and (min-width: 0){
+	.why-icon-left {
+	    left: -25px;
+    	top: -35px;
+	}
+	.why-icon-right {
+	    right: -25px;
+    	top: -35px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+    .why-icon-right {
+	    right: -45px;
+	    top: -70px;
+	}
+	.why-icon-left {
+	    left: -45px;
+	    top: -70px;
+	}
+}
+
+@media only screen and (min-width: 850px) {
+    .why-icon-right {
+	    right: -40px;
+	    top: -40px;
+	}
+	.why-icon-left {
+	    left: -40px;
+	    top: -40px;
+	}
+}
+
+@media only screen and (min-width: 980px) {
+    .why-icon-right {
+	    top: -50px;
+	}
+	.why-icon-left {
+	    top: -50px;
+	}
+}
+
+
+/*@media only screen and (min-width: 1200px) {
+    .why-icon-right {
+	    right: -300px;
+	}
+}*/
 
 
 #demo-section > .row{
