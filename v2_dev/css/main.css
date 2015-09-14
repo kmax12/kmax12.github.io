@@ -299,3 +299,11 @@ html{
 	font-weight: 300;
 	font-size: 32px;	
 }
+.how-step-img{
+	width: 307px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    border: 3px #444 solid;
+    border-radius: 6px;
+}
