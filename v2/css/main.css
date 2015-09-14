@@ -200,10 +200,19 @@ blockquote{
 @media only screen and (min-width: 0){
 	.why-icon-left {
 	    left: -25px;
-    	top: -35px;
+    	top: -55px;
 	}
 	.why-icon-right {
 	    right: -25px;
+    	top: -55px;
+	}
+}
+
+@media only screen and (min-width: 450px){
+	.why-icon-left {
+    	top: -35px;
+	}
+	.why-icon-right {
     	top: -35px;
 	}
 }
