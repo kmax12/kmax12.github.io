@@ -1,0 +1,53 @@
+<% var root = (environment == "production") ? "/v2/" : "/" %>
+
+<div class="bg">
+    <div class="container section">
+    	<div class="row">
+    		<div class="col s12">
+    			<h3 class="main-header">Solution Engineering</h3>
+
+				<h5 class="sub-header">
+					If you have a complex data problem, let FeatureLab build a custom solution for you. Using years of experience in different domains, we engineer solutions to the toughest data problems.
+				</h5>
+
+            </div>
+
+    	</div>
+    </div>
+</div>
+
+<div class="bg">
+    <div class="container section">
+        <div class="row">
+            <div class="col s12">
+                <h4>Our Process</h4>
+            </div>
+            <div class="col s12 m10 offset-m1 l8 offset-l2">
+                <img class="process" src="<%- root %>img/process.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg">
+    <div class="container section">
+        <div class="row">
+            <div class="col s12">
+                <h4>Our servives</h4>
+            </div>
+            <div class="col s12">
+                <ul class="services" style=" list-style-image:url(<%- root %>img/bullet.png)">
+                    <li>Data understanding, curation, cleaning, and linking</li>
+                    <li>Data pipeline design</li>
+                    <li>Custom machine learning design</li>
+                    <li>Proof of concepts on real data</li>
+                    <li>Visualization design</li>
+                    <li>End-to-end implementation</li>
+                    <li>Scalability evaluation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- partial("_contact") %>
