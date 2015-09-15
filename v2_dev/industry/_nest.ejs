@@ -6,12 +6,14 @@
         </div>
       </div> -->
       <div class="row">
-        <a href="<%- root %>industry">Industries</a> > <%= public.industry._data[current.source].name %>
       </div>
 
       
 
       <div class="row">
+        <div class="col s12">
+          <a href="<%- root %>industry">Industries</a> > <%= public.industry._data[current.source].name %>
+        </div>
         <div class="col s12 m8 offset-m2 industry-title">
            <h3 class="main-header center-align">Data Science for <%= public.industry._data[current.source].name %></h3>
           <img class="industry-icon" src="<%- root %><%- public.industry._data[current.source].icon %>"  />
@@ -32,10 +34,9 @@
 
           <p>Our unique approach enables domain experts to do more with the data they have. With FeatureLab, it is straight-forward to discover the variables that impact your business, as well as understand the impact of each variable. Never before has it been so easy for the people with questions to use data to find the answers.</p>
 
-          <p>FeatureLab partners with all types of companies to solve data problems. We help companies create end-to-end solutions.</p>
+          <p>FeatureLab partners with all types of companies to solve data problems, enables companies create end-to-end solutions, and ensures no angle goes unexplored.</p>
         </div>
       </div>             
     </div>
 </div>
 
-<%- partial("../_contact") %>
