@@ -86,6 +86,10 @@ blockquote{
 
 }
 
+.no-bg{
+	background: none!important;
+}
+
 .btn{
 	background-color: #FB9828!important;
 }
