@@ -44,7 +44,7 @@ body{
 
 .white-bg{
 	background: #fff!important;
-	background-image: url(http://www.transparenttextures.com/patterns/absurdity.png)!important;
+	/*background-image: url(http://www.transparenttextures.com/patterns/absurdity.png)!important;*/
 }
 
 .bg{
@@ -340,7 +340,7 @@ blockquote{
 	margin-bottom: 5px;
 }
 
-.industry-icon > img{
+.industry-container .industry-icon > img{
 	width: 105px;
 }
 
@@ -348,14 +348,18 @@ blockquote{
 	font-size: 20px;
 }
 
-#industry-body p:nth-child(2){
-	font-size: 24px;
+#industry-body p:nth-child(1){
+	/*font-size: 24px;*/
 }
 
-#industry-body .industry-icon{
-	width: 150px;
-    float: left;
-    margin: 20px 10px 5px 10px;
+.industry-title .industry-icon{
+	text-align: center;
+    margin: auto;
+    display: block;
+    width: 22%;
+    margin-bottom: -32px;
+    margin-top: -17px;
+
 }
 
 
