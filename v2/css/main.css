@@ -53,6 +53,9 @@ body{
 .top20{
 	margin-top: 20px;
 }
+.thin-font{
+	font-weight: 300;
+}
 .section{
 	padding: 20px 0px;
 	margin-bottom: 0px;
