@@ -21,6 +21,10 @@ body{
 
 
 
+.slider .indicators .indicator-item.active{
+	background-color: #FB9828!important;
+}
+
 /*.bg:nth-child(odd):after {
     content : "";
     display: block;
@@ -33,6 +37,14 @@ body{
     opacity : 0.6;
     z-index: -1;
 }*/
+
+.sy-slides-wrap{
+	height: initial;
+}
+
+.sy-pager li.sy-active a {
+	background-color: #FB9828!important;
+}
 
 .top20{
 	margin-top: 20px;
@@ -417,6 +429,10 @@ a.btn{
 	font-size: 24px;
 	padding: 0 40px;
 	margin: 0px;
+}
+
+#services > li {
+	opacity:0;
 }
 
 
