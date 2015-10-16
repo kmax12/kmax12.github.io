@@ -8,7 +8,12 @@ def randomColor():
 paper_list = [
 	{
 		'title' :  'Deep Feature Synthesis: Towards Automating Data Science Endeavors',
-		'file'  : 'papers/DSAA_DSM_2015.pdf'
+		'file'  : 'papers/DSAA_DSM_2015.pdf',
+		'note'  : ' to appear in International IEEE/ACM Data Science and Advance Analytics Conference, 2015 (acceptance rate - 10%) '
+	},
+	{
+		'title' :  'CommunityFinder: Software to Analyze Communities that Develop in MOOC Discussion Forums',
+		'file'  : 'papers/community_finder.pdf',
 	},
 	{
 		'title' :  'Activity Classification using Smartphone Accelerometer Data',

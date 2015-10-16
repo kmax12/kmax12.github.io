@@ -16,6 +16,12 @@ def index():
 def projects():
 	return flask.render_template('projects.html', **template_data)
 
+
+@app.route("/patents")
+def patents():
+	return flask.render_template('patents.html', **template_data)
+
+
 @app.route("/papers")
 def papers():
 	return flask.render_template('papers.html', **template_data)
