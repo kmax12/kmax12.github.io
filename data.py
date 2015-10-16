@@ -7,6 +7,10 @@ def randomColor():
 
 paper_list = [
 	{
+		'title' :  'Deep Feature Synthesis: Towards Automating Data Science Endeavors',
+		'file'  : 'papers/DSAA_DSM_2015.pdf'
+	},
+	{
 		'title' :  'Activity Classification using Smartphone Accelerometer Data',
 		'file'  : 'papers/activity_classification.pdf'
 	},

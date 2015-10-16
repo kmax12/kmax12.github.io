@@ -64,14 +64,14 @@ p {
 
 
 #name {
-	position: relative;
-	left: 11%;
-	margin:auto;
-	padding: 17px;
-	text-align:center;
-	color:white;
-	border-radius: 100px;
-	font: bold 100px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 position: relative;
+    left: 26%;
+    margin: auto;
+    padding-top: 14px;
+    color: white;
+    border-radius: 100px;
+    font: bold 73px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 	/*-moz-box-shadow: 0px 1px 4px #333; 
 	-webkit-box-shadow: 0px 1px 4px #333;
 	box-shadow: 0px 1px 50px #333; */
@@ -332,4 +332,11 @@ height:100%;
 	top: 409px;
 }
 
+
+#max-photo{
+	 width: 134px;
+    float: right;
+    margin: 6px 0px 0px -3px;
+    border-radius: 92px;
+}
 
