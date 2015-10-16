@@ -25,7 +25,7 @@ paper_list = [
 	},
 ]
 
-
+ 
 project_list = [	
 	{
 		'title': 'Relert',
