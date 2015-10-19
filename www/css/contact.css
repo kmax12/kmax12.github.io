@@ -1,0 +1,142 @@
+/* 
+Blue Color: #33afe5;
+Green Color: #40c781;
+Off White Color: #f0f0f0f0;
+*/
+
+
+.topbar-contact{
+	height: 80px;
+	z-index: 1000;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 11px;
+	position: fixed;
+	background-color: #fff;
+}
+ul.navig li a.active {
+	color: #33afe5;
+}
+
+.logo-contact img{
+	max-width: 200px;
+	display: inline-block;
+	float:left;
+	padding-top: 5px;
+}
+a.power {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+/*--Contact-Part-Starts-Here--*/
+.wufoo {
+  background-color: #fff;
+}
+.wufoo .info, .wufoo .paging-context {
+  border-bottom: 0px;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+	width: 50%;
+	color: #999999;
+	outline: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	padding: 17px 25px;
+	margin-bottom: 1em;
+	border: solid 1px #D5D4D4;
+	-webkit-appearance: none;
+	font-weight: 700;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+.wufoo .info h2 {
+	color: #333;
+	font-size: 2.7em;
+	font-weight: 400;
+	text-align: center;
+}
+textarea.textarea {
+  min-width: 85%;
+ }
+.wufoo select.select{
+	margin: 2px 0 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 10px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	color: #999999;
+	outline: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+.wufoo input.btTxt{
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #33afe5;
+	padding: 15px 30px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 1.5em;
+	letter-spacing: 1px;
+	-webkit-appearance: none;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+.wufoo input.btTxt:hover{
+	background: #363636;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file{
+  color: #333;
+  line-height: 150%;
+  margin: 0;
+  padding: 0 0 3px 0;
+  border: none;
+  display: block;
+  white-space: normal;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.wufoo li.focused {
+  background-color: #40c781;
+}
+form ul {
+  margin: auto;
+  margin-left: 5%;
+  padding: 0;
+  list-style-type: none;
+}
+.contact{
+	background-color: #33afe5;
+	padding:7em 0px;
+}
+.contact-main{
+	background-color: #fff;
+	margin: auto;
+	width: 80%;
+	padding: 3em 0px 2.5em 0;
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-ms-border-radius: 0.3em;
+}
+
+/*--Contact-Part-Ends-Here--*/
