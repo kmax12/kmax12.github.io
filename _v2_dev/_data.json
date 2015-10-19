@@ -60,6 +60,71 @@
 			"body" : "Software that is built to be enjoyable to use.",
 			"icon" : "img/icons/Fun.png"
 		}
+	],
+	"intelligent" : [
+		{
+			"header" : "Smart Transformations",
+			"body" : "Use intelligent technology to transform raw data into explanatory variables.",
+			"icon" : "img/icons/Intelligent.png"
+		},
+		{
+			"header" : "Hands-off Prediction",
+			"body" : "Select a prediction problem with a click and FeatureLab does the rest.",
+			"icon" : "img/icons/Predict.png"
+		},
+		{
+			"header" : "Expert Knowledge",
+			"body" : "Harness your domain expertise to tune models for your business needs.",
+			"icon" : "img/icons/Harness Human Expertise.png"
+		},
+		{
+			"header" : "High Fidelity Models",
+			"body" : "Our automatic models are as accurate as manmade ones.",
+			"icon" : "img/icons/High Performance.png"
+		}
+	],
+	"flexible" : [
+		{
+			"header" : "Easy Integration",
+			"body" : "Incorporate FeatureLab into existing infrastructure",
+			"icon" : "img/icons/Easy Integration.png"
+		},
+		{
+			"header" : "Flexible Data Import",
+			"body" : "Connect to existing databases and upload spreadsheets or text files",
+			"icon" : "img/icons/Flexible Data Import.png"
+		},
+		{
+			"header" : "On-premise Install",
+			"body" : "FeatureLab comes to you—install it on-premise.",
+			"icon" : "img/icons/On-premise.png"
+		},
+		{
+			"header" : "Cloud",
+			"body" : "Run FeatureLab in a secure cloud.",
+			"icon" : "img/icons/Cloud.png"
+		}
+	],
+	"insights" : [
+		{
+			"header" : "Data Science Is Fun Again",
+			"body" : "Software that is built to be enjoyable to use.",
+			"icon" : "img/icons/Fun.png"
+		},
+		{
+			"header" : "Actionable Insights",
+			"body" : "Simulate new inputs, and determine how different actions will affect future outcomes",
+			"icon" : "img/icons/Actionable Insight.png"
+		},
+		{
+			"header" : "Prediction Export",
+			"body" : "Upload unlabeled data and download batch predictions.",
+			"icon" : "img/icons/Export Predictions.png"
+		},{
+			"header" : "Effortless Scaling",
+			"body" : "Take advantage of all of your data for superior results.",
+			"icon" : "img/icons/Effortlessly Scale.png"
+		}
 	]
 }
 

@@ -1,0 +1,26 @@
+<div class="bg">
+    <div id="features-section" class="container section">
+    	<a class="anchor" id="features"></a>
+    	<!-- Cloud
+		
+		 -->
+		<div class="row">
+			<div class="col s12">
+				<div class="section-header center-align">Tools to Find Answers</div>
+    		</div>
+		</div>
+    	<div  class="row feature-container">
+
+    		<% for(var f in public._data.features){ %>
+					<div class="col s12 m6 l4">
+		    			<div class="feature-icon"><img src="<%- root %><%- public._data.features[f].icon %>"  /></div>
+		    			<div class="feature-text">
+			    			<div class="feature-header"><%- public._data.features[f].header %></div>
+			    			<div class="feature-body"><%- public._data.features[f].body %></div>
+		    			</div>
+		    		</div>
+
+            <% }; %>  
+    	</div>
+    </div>
+</div>

@@ -36,6 +36,7 @@
     </div>
 </div>
 
+
 <div class="bg">
     <div id="screenshot-section" class="container section">
 		<div class="row">
@@ -68,17 +69,45 @@
 		 -->
 		<div class="row">
 			<div class="col s12">
-				<div class="section-header center-align">Tools to Find Answers</div>
+				<div class="section-header center-align">Why FeatureLab?</div>
     		</div>
 		</div>
     	<div  class="row feature-container">
-
-    		<% for(var f in public._data.features){ %>
-					<div class="col s12 m6 l4">
-		    			<div class="feature-icon"><img src="<%- root %><%- public._data.features[f].icon %>"  /></div>
+    		<h4 class="center-align thin-font">Intelligent</h4>
+    		<% for(var f in public._data.intelligent){ %>
+					<div class="col s12 m6">
+		    			<div class="feature-icon"><img src="<%- root %><%- public._data.intelligent[f].icon %>"  /></div>
 		    			<div class="feature-text">
-			    			<div class="feature-header"><%- public._data.features[f].header %></div>
-			    			<div class="feature-body"><%- public._data.features[f].body %></div>
+			    			<div class="feature-header"><%- public._data.intelligent[f].header %></div>
+			    			<div class="feature-body"><%- public._data.intelligent[f].body %></div>
+		    			</div>
+		    		</div>
+
+            <% }; %>  
+    	</div>
+
+    	<div  class="row feature-container">
+            <h4 class="center-align thin-font">Flexible</h4>
+    		<% for(var f in public._data.flexible){ %>
+					<div class="col s12 m6">
+		    			<div class="feature-icon"><img src="<%- root %><%- public._data.flexible[f].icon %>"  /></div>
+		    			<div class="feature-text">
+			    			<div class="feature-header"><%- public._data.flexible[f].header %></div>
+			    			<div class="feature-body"><%- public._data.flexible[f].body %></div>
+		    			</div>
+		    		</div>
+
+            <% }; %>  
+    	</div>
+
+    	<div  class="row feature-container">
+            <h4 class="center-align thin-font">Insightful</h4>
+    		<% for(var f in public._data.insights){ %>
+					<div class="col s12 m6">
+		    			<div class="feature-icon"><img src="<%- root %><%- public._data.insights[f].icon %>"  /></div>
+		    			<div class="feature-text">
+			    			<div class="feature-header"><%- public._data.insights[f].header %></div>
+			    			<div class="feature-body"><%- public._data.insights[f].body %></div>
 		    			</div>
 		    		</div>
 
@@ -87,12 +116,47 @@
     </div>
 </div>
 
+
+<!-- flexible:
+simeple integration
+effortless scaling
+on-premise or cloud installation
+data import from many sources
+
+Intelligent:
+smart transformations
+expert knowledge (maybe change this to something like "customization" or "custom models" because users can utilize their expert knowledge?)
+high fidelity models
+hands-off prediction ("automatic modeling"? "one-click modeling"?)
+
+Insight:
+prediction export (I feel like this one has two different descriptions going?)
+Actionable insight
+For all users (maybe instead of data science is fun again) -->
+
+
+
+
+<div class="bg">
+    <div id="screenshot-section" class="container section">
+		<div class="row">
+			<div class="col s12">
+				<div class="section-header center-align">Stay in touch</div>
+			</div>
+			<div class="col s12 center-align">
+				<a href="http://eepurl.com/bC4eaX" class="waves-effect waves-light btn green-bg">Sign up for newsletter</a>
+			</div>
+		</div>
+    </div>
+</div>
+
+
 <div class="bg">
     <div id="why-section" class="container section">
 		<a class="anchor" id="why"></a>
 		<div class="row">
 			<div class="col s12">
-				<div class="section-header center-align">Why FeatureLab?</div>
+				<div class="section-header center-align">Add FeatureLab to Your Team</div>
     		</div>
 		</div>
 
