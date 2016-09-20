@@ -12,7 +12,7 @@
 		},
 		{
 			"header" : "Hands-off Prediction",
-			"body" : "Select a prediction problem with a click and FeatureLab does the rest.",
+			"body" : "Define prediction problem and FeatureLab does the rest.",
 			"icon" : "img/icons/Predict.png"
 		},
 		{
@@ -59,28 +59,6 @@
 			"header" : "Data Science Is Fun Again",
 			"body" : "Software that is built to be enjoyable to use.",
 			"icon" : "img/icons/Fun.png"
-		}
-	],
-	"intelligent" : [
-		{
-			"header" : "Smart Transformations",
-			"body" : "Use intelligent technology to transform raw data into explanatory variables.",
-			"icon" : "img/icons/Intelligent.png"
-		},
-		{
-			"header" : "Hands-off Prediction",
-			"body" : "Select a prediction problem with a click and FeatureLab does the rest.",
-			"icon" : "img/icons/Predict.png"
-		},
-		{
-			"header" : "Expert Knowledge",
-			"body" : "Harness your domain expertise to tune models for your business needs.",
-			"icon" : "img/icons/Harness Human Expertise.png"
-		},
-		{
-			"header" : "High Fidelity Models",
-			"body" : "Our automatic models are as accurate as manmade ones.",
-			"icon" : "img/icons/High Performance.png"
 		}
 	],
 	"flexible" : [
@@ -124,6 +102,28 @@
 			"header" : "Effortless Scaling",
 			"body" : "Take advantage of all of your data for superior results.",
 			"icon" : "img/icons/Effortlessly Scale.png"
+		}
+	],
+	"intelligent" : [
+		{
+			"header" : "Smart Transformations",
+			"body" : "Use automation technology to transform raw data into explanatory variables.",
+			"icon" : "img/icons/Intelligent.png"
+		},
+		{
+			"header" : "Hands-off Prediction",
+			"body" : "Define a prediction problem and FeatureLab does the rest.",
+			"icon" : "img/icons/Predict.png"
+		},
+		{
+			"header" : "Expert Knowledge",
+			"body" : "Harness your domain expertise to tune models for your business needs.",
+			"icon" : "img/icons/Harness Human Expertise.png"
+		},
+		{
+			"header" : "High Fidelity Models",
+			"body" : "Our automatic models are as accurate as manmade ones.",
+			"icon" : "img/icons/High Performance.png"
 		}
 	]
 }

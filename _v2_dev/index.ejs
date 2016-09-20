@@ -72,6 +72,34 @@
 				<div class="section-header center-align">Why FeatureLab?</div>
     		</div>
 		</div>
+
+        <div  class="row feature-container">
+            <h4 class="center-align thin-font">Flexible</h4>
+            <% for(var f in public._data.flexible){ %>
+                    <div class="col s12 m6">
+                        <div class="feature-icon"><img src="<%- root %><%- public._data.flexible[f].icon %>"  /></div>
+                        <div class="feature-text">
+                            <div class="feature-header"><%- public._data.flexible[f].header %></div>
+                            <div class="feature-body"><%- public._data.flexible[f].body %></div>
+                        </div>
+                    </div>
+
+            <% }; %>
+        </div>
+
+        <div  class="row feature-container">
+            <h4 class="center-align thin-font">Insightful</h4>
+            <% for(var f in public._data.insights){ %>
+                    <div class="col s12 m6">
+                        <div class="feature-icon"><img src="<%- root %><%- public._data.insights[f].icon %>"  /></div>
+                        <div class="feature-text">
+                            <div class="feature-header"><%- public._data.insights[f].header %></div>
+                            <div class="feature-body"><%- public._data.insights[f].body %></div>
+                        </div>
+                    </div>
+
+            <% }; %>
+        </div>
     	<div  class="row feature-container">
     		<h4 class="center-align thin-font">Intelligent</h4>
     		<% for(var f in public._data.intelligent){ %>
@@ -80,34 +108,6 @@
 		    			<div class="feature-text">
 			    			<div class="feature-header"><%- public._data.intelligent[f].header %></div>
 			    			<div class="feature-body"><%- public._data.intelligent[f].body %></div>
-		    			</div>
-		    		</div>
-
-            <% }; %>
-    	</div>
-
-    	<div  class="row feature-container">
-            <h4 class="center-align thin-font">Flexible</h4>
-    		<% for(var f in public._data.flexible){ %>
-					<div class="col s12 m6">
-		    			<div class="feature-icon"><img src="<%- root %><%- public._data.flexible[f].icon %>"  /></div>
-		    			<div class="feature-text">
-			    			<div class="feature-header"><%- public._data.flexible[f].header %></div>
-			    			<div class="feature-body"><%- public._data.flexible[f].body %></div>
-		    			</div>
-		    		</div>
-
-            <% }; %>
-    	</div>
-
-    	<div  class="row feature-container">
-            <h4 class="center-align thin-font">Insightful</h4>
-    		<% for(var f in public._data.insights){ %>
-					<div class="col s12 m6">
-		    			<div class="feature-icon"><img src="<%- root %><%- public._data.insights[f].icon %>"  /></div>
-		    			<div class="feature-text">
-			    			<div class="feature-header"><%- public._data.insights[f].header %></div>
-			    			<div class="feature-body"><%- public._data.insights[f].body %></div>
 		    			</div>
 		    		</div>
 
@@ -170,7 +170,7 @@ For all users (maybe instead of data science is fun again) -->
 					<div class="why-bullets">
 						<ul>
 							<li>find insights without assistance</li>
-							<li>build machine learning models with one click</li>
+							<li>efficiently build machine learning models</li>
 							<li>improve models with domain expertise</li>
 						</ul>
 					</div>
