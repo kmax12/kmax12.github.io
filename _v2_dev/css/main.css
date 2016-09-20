@@ -19,6 +19,16 @@ body{
 	overflow-x: hidden;
 }
 
+#navbar-links{
+    margin-right: 75px;
+    font-weight: 300;
+}
+
+#navbar-links a{
+    color: #444!important;
+    cursor: pointer;
+}
+
 
 
 .slider .indicators .indicator-item.active{
@@ -31,7 +41,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/noisy_grid.png); 
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/noisy_grid.png);
     width: 100%;
     height: 100%;
     opacity : 0.6;
@@ -411,7 +421,7 @@ a.btn{
 }
 .how-quote{
 	font-weight: 300;
-	font-size: 32px;	
+	font-size: 32px;
 }
 .how-step-img{
 	width: 70%;
@@ -444,6 +454,27 @@ a.btn{
 	opacity:0;
 }
 
+
+/* Team */
+
+.team-img{
+    width: 100%;
+}
+
+.team-name{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#team-container {
+    padding-top: 30px;
+}
+
+.person-wrapper{
+    text-align: center;
+}
 
 
 
