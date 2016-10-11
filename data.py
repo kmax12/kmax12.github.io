@@ -1,4 +1,4 @@
-import random 
+import random
 
 def randomColor():
 	x = random.randint(0, 16777215)
@@ -9,7 +9,12 @@ paper_list = [
 	{
 		'title' :  'Deep Feature Synthesis: Towards Automating Data Science Endeavors',
 		'file'  : 'papers/DSAA_DSM_2015.pdf',
-		'note'  : ' to appear in International IEEE/ACM Data Science and Advance Analytics Conference, 2015 (acceptance rate - 10%) '
+		'note'  : ' appeared in International IEEE/ACM Data Science and Advance Analytics Conference, 2015 (acceptance rate - 10%) '
+	},
+	{
+		'title' :  'Label, Segment, Featurize: a cross domain framework for prediction engineering',
+		'file'  : 'papers/DSAA_LSF_2016.pdf',
+		'note'  : ' appeared in International IEEE/ACM Data Science and Advance Analytics Conference, 2016'
 	},
 	{
 		'title' :  'CommunityFinder: Software to Analyze Communities that Develop in MOOC Discussion Forums',
@@ -30,8 +35,8 @@ paper_list = [
 	},
 ]
 
- 
-project_list = [	
+
+project_list = [
 	{
 		'title': 'Relert',
 		'link' : 'relert',
@@ -102,7 +107,7 @@ project_list = [
 		'tech' : 'node.js, javascript, html5, css3',
 		'created': 'Summer 2011',
 		'description': 'Cntrlr gives you  full control of you  desktop browser with any mobile device. After installing a browser extension or bookmarklet, users can connect any  device with a web browser (tablet, smartphone, another computer) and control the host browser. Cntrlr allows users to interially scroll a web page, fill in text inputs, change URL, and draw on screen -- all from a mobile device!',
-		'add' : "Made in one night during Linkedin's intern hackday. Made it to final round of top 15 projects." 
+		'add' : "Made in one night during Linkedin's intern hackday. Made it to final round of top 15 projects."
 	},
 	{
 		'title': 'MIT Web Finger',

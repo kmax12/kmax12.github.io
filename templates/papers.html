@@ -8,8 +8,6 @@
 			</div>
 
 
-			
-
 			<div class="content">
 				<div>Here's a selection of papers I have authored or co-authored during my time at MIT.</div>
 
@@ -22,7 +20,7 @@
 						 	<a href="/static/{{paper.code}}">[code]</a>
 						 {% endif %}
 						 {% if paper.note %}
-						 	{{paper.note}}
+						 	- {{paper.note}}
 						 {% endif %}
 					</li>
 				{% endfor %}
