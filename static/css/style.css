@@ -2,7 +2,7 @@ html {
 	background-color: #3C5A76;
 	height: 100%;
 	color: white;
-	
+
 }
 
 .small-caps {
@@ -41,8 +41,8 @@ p {
 	margin: 2% 0% 4% 0%;
 	width: 19%;
 	height:auto;
-	-moz-box-shadow: inset 5px 0 5px -5px #333;  
-	-webkit-box-shadow: inset 5px 0 5px -5px #333; 
+	-moz-box-shadow: inset 5px 0 5px -5px #333;
+	-webkit-box-shadow: inset 5px 0 5px -5px #333;
 	box-shadow: inset -5px 0 5px -5px #333;
 }
 
@@ -72,10 +72,10 @@ p {
     border-radius: 100px;
     font: bold 73px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-	/*-moz-box-shadow: 0px 1px 4px #333; 
+	/*-moz-box-shadow: 0px 1px 4px #333;
 	-webkit-box-shadow: 0px 1px 4px #333;
 	box-shadow: 0px 1px 50px #333; */
-	/*text-shadow: 0 1px 0 #ccc, 
+	/*text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
                0 4px 0 #b9b9b9,
@@ -114,10 +114,10 @@ li>ul {
 	font-weight: 400;
 	padding: 0px 10px 0px 0px;
 	text-align: right;
-	-moz-box-shadow: inset 2px 0 2px -2px #333;  
-	-webkit-box-shadow: inset 2px 0 2px -2px #333; 
+	-moz-box-shadow: inset 2px 0 2px -2px #333;
+	-webkit-box-shadow: inset 2px 0 2px -2px #333;
 	box-shadow: inset -2px 0 2px -2px #333;
-	
+
 }
 
 .remove-underline{
@@ -130,7 +130,7 @@ A{
 	-webkit-transition: all ease-in-out 0.2s;
 	-moz-transition: all ease-in-out 0.2s;
 	transition: all ease-in-out 0.2s;
-	outline: none;  
+	outline: none;
 	overflow: hidden;
 	}
 A:visited {
@@ -147,7 +147,7 @@ text-shadow: 0px 2px 10px #101010;
 }
 .feature-container {
 	position:relative;
-	float:left;	
+	float:left;
 	margin:1%;
 	width:31%;
 	height:210px;
@@ -229,8 +229,8 @@ text-shadow: 0px 2px 10px #101010;
 }
 
 .checkbox{
-	border: 2px outset #5AA0B8; 
-	background: #046; 
+	border: 2px outset #5AA0B8;
+	background: #046;
 	text-align:center;
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
@@ -238,9 +238,9 @@ text-shadow: 0px 2px 10px #101010;
 }
 
 .checkbox-enabled{
-	border: 2px inset #5aa0b8; 
-	vertical-align: middle; 
-	background: #046; 
+	border: 2px inset #5aa0b8;
+	vertical-align: middle;
+	background: #046;
 }
 
 .content {
@@ -274,7 +274,7 @@ height:100%;
 }
 
 .float-right{
-	float: right;	
+	float: right;
 }
 #contact-column-wrapper{
 	width:88%;
@@ -335,7 +335,7 @@ height:100%;
 #max-photo{
 	 width: 134px;
     float: right;
-    margin: 6px 0px 0px -3px;
+    margin: 6px 0px 0px 3px;
     border-radius: 92px;
 }
 

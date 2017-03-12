@@ -95,7 +95,7 @@ project_list = [
 		'tech' : 'ode.js, javascript, html5, css3',
 		'created': 'Summer 2011',
 		'description': 'Musique is a tool to collaboratively generate and enjoy playlists. There is one host computer that plays the actual music, but any connected client can add songs, control the volume, and toggle music play/pause via a web interface.',
-		'add' : "Most of the code base was built in one night at Mozilla's World Series of Hack"
+		# 'add' : "Most of the code base was built in one night at Mozilla's World Series of Hack"
 	},
 	{
 		'title': 'Cntrlr',
@@ -142,8 +142,8 @@ project_list = [
 		'url' : None,
 		'tech' : "javascript, PHP, MySQL, html5, css3",
 		'created': 'Fall/Winter 2010',
-		'description': 'ReviewNT was a site to provide third-party,constructive reviews for teachers',
-		'add' : "My district's superattendent and the teacher union president did not want this site to be released so they blocked it from ever collecting a review"
+		'description': 'ReviewNT was a site to provide third-party, constructive reviews for teachers',
+		# 'add' : "My district's superattendent and the teacher union president did not want this site to be released so they blocked it from ever collecting a review"
 	},
 	{
 		'title': 'Digital Poem',
