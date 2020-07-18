@@ -1,0 +1,34 @@
+{{ define "page-header"}} 
+    <h1>{{ .Title }}</h1>
+    <div id="post-subtitle">{{.Params.subtitle}}</div>
+{{ end }}
+
+
+{{ define "main" }}
+    <!-- <h2></h2> -->
+
+    <div class="row mb-4" style="font-size: .9em;">
+            <div class="col-12 mb-4">
+                <span class="mr-3"><i class="fa fa-clock-o"></i> {{.Date.Format "Jan 2, 2006"}}</span>
+                <span class="mr-3"><i class="fa fa-book"></i> {{ .ReadingTime}} minutes</span>
+                <!-- <span class=""><i class="fa fa-pencil"></i> {{ .WordCount}} words</span> -->
+            </div>
+    </div>
+    <!-- <hr/> -->
+    <div class="row py-2 mb-3">
+            <div id="post-content" class="col">
+                {{ .Content }}
+            </div>
+    </div>
+
+    <hr>
+
+    {{- partial "header.html" . -}}
+
+    <!-- <div> Reading time: {{ .ReadingTime}} minutes </div>
+    <div> Word Count: {{ .WordCount}} words </div> -->
+
+        
+{{ end }}
+
+{{ define "footer" }} {{ end }}

@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/kmax12/kmax12.github.io.git
+	branch = master
