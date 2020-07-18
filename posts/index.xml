@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Max Kanter</title>
+    <link>https://www.jmaxkanter.com/posts/</link>
+    <description>Recent content in Posts on Max Kanter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.jmaxkanter.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You cannot do data science without open source</title>
+      <link>https://www.jmaxkanter.com/posts/open-source-data-science/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jmaxkanter.com/posts/open-source-data-science/</guid>
+      <description>When I joined Alteryx last year, one of the first things I heard from our CEO Dean Stoeker was a quote inspired by the inventor Buckminster Fuller. It went along the lines of
+ We are building all the right technologies for all the wrong reasons. We will not be able to operate Spaceship Earth very well nor for much longer unless we see it as a common cause. It has to be none of us or all of us.</description>
+    </item>
+    
+  </channel>
+</rss>
