@@ -6,10 +6,15 @@
     <description>Recent content on Max Kanter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.jmaxkanter.com/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jmaxkanter.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leaving Alteryx</title>
+      <link>https://www.jmaxkanter.com/posts/leaving-alteryx/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.jmaxkanter.com/posts/leaving-alteryx/</guid>
+      <description>After 2 years, last month marked the end of my time at Alteryx.</description>
+    </item>
     
     <item>
       <title>You cannot do data science without open source</title>
@@ -17,8 +22,7 @@
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.jmaxkanter.com/posts/open-source-data-science/</guid>
-      <description>When I joined Alteryx last year, one of the first things I heard from our CEO Dean Stoeker was a quote inspired by the inventor Buckminster Fuller. It went along the lines of
- We are building all the right technologies for all the wrong reasons. We will not be able to operate Spaceship Earth very well nor for much longer unless we see it as a common cause. It has to be none of us or all of us.</description>
+      <description>While I had a strong feeling back in 2017 when I made my first open source library, it’s even more clear today that you cannot do data science without open source.</description>
     </item>
     
     <item>

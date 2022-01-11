@@ -5,10 +5,6 @@
     <link>https://www.jmaxkanter.com/tags/</link>
     <description>Recent content in Tags on Max Kanter</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://www.jmaxkanter.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://www.jmaxkanter.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
