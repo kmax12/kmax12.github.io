@@ -3,9 +3,10 @@ title: "You cannot do data science without open source"
 subtitle: "But you cannot do open source without a sustainable plan"
 date: 2020-07-18
 draft: false
----
+summary: While I had a strong feeling back in 2017 when I made my first open source library, it’s even more clear today that you cannot do data science without open source.
 
-When I joined [Alteryx](https://www.alteryx.com/) last year, one of the first things I heard from our CEO Dean Stoeker was a quote inspired by the inventor Buckminster Fuller. It went along the lines of
+---
+When I joined [Alteryx](https://www.alteryx.com/) last year, one of the first things I heard from our CEO Dean Stoeker was a quote inspired by the inventor Buckminster Fuller. It went along the lines of:
 
 > We are building all the right technologies for all the wrong reasons. We will not be able to operate Spaceship Earth very well nor for much longer unless we see it as a common cause. It has to be none of us or all of us.
 

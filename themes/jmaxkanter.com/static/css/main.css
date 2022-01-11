@@ -50,6 +50,30 @@ h1 a {
     /* font-weight: bold; */
 }
 
+#blog-post-list{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#blog-post-list li h2 {
+    font-size: 1.5rem;
+}
+
+#blog-post-list li {
+    margin: 25px auto;
+    font-size: 1.2rem;
+}
+
+#blog-post-list li a{
+    color:#1B70BB;
+}
+
+#blog-post-list li .post-list-date{
+    color:#bbb;
+    font-size:.9em;
+}
+
 #post-subtitle{
     font-size: 1.1em;
     font-style: italic;
