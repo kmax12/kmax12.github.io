@@ -1,6 +1,6 @@
 Hi! I'm Max 👋
 
-I like data, software engineering, and building companies!
+I like data, software engineering, and building companies.
 
 In 2015, I cofounded Feature Labs. We built machine learning software used by tens of thousands of people around the world. After running Feature Labs as CEO for 4 years, we were aquired by Alteryx (NYSE: AYX).
 
