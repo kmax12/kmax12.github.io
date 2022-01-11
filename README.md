@@ -8,8 +8,11 @@ hugo new posts/my-post.md
 
 ## Deploy
 
-Deployment are automated based on push to `master` branch. That kicks off a github action that publishes the public artifacts to `gh-pages` branch, which is what GitHub hosts.
+Deployment are automated based on pushing to `master` branch. That kicks off a GitHub action that publishes the public artifacts to `gh-pages` branch, which is what GitHub hosts.
 
+```
+git push origin master
+```
 
 ## Working locally
 
