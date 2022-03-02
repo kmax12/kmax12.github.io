@@ -1,0 +1,10 @@
+baseURL: "https://www.jmaxkanter.com/"
+languageCode: "en-us"
+title: "Max Kanter"
+theme: "jmaxkanter.com"
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      footnote: true

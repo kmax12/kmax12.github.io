@@ -24,6 +24,8 @@ brew install hugo
 
 ### Build Locally 
 
+Make sure to be on `master` branch
+
 ```
 hugo --watch
 ```
