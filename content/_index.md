@@ -6,9 +6,9 @@ Hi! I’m Max 👋
 
 I like data, software engineering, and building companies.
 
-In 2015, I co-founded [Feature Labs][1]. We built machine learning software used by tens of thousands of developers worldwide. After running Feature Labs as CEO for 4 years, we were acquired by Alteryx (NYSE: AYX).
+In 2015, I co-founded [Feature Labs][1]. We built machine learning software used by tens of thousands of developers worldwide. 
 
-At Alteryx, I formed their Innovation Labs to focus on democratizing machine learning for their 300,000 customers. In particular, I led the development of a new cloud AutoML product from inception to commercial availability while quadrupling the original Feature Labs team to 40 software engineers.
+After running Feature Labs as CEO for 4 years, we were acquired by Alteryx (NYSE: AYX) to form their Innovation Labs where we worked to democratizing machine learning for their 300,000 customers. In particular, I led the development of a new cloud AutoML product from inception to commercial availability while quadrupling the original Feature Labs team to 40 software engineers.
 
 Before that, I studied computer science at MIT, where I did research in the [Data to AI][2] Lab.
 
