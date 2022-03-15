@@ -1,2 +1,2 @@
 # Induced Perspectives
-### Forcing myself to think by writing
+### Clarifying my thoughts by writing
