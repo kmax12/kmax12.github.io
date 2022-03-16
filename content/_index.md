@@ -1,3 +1,6 @@
+---
+description: I like data, software engineering, and building companies.
+---
 #
 # 
 # 
