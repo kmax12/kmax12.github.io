@@ -64,6 +64,16 @@ section.footnotes{
     /* font-weight: bold; */
 }
 
+.list-title-container h1 {
+    color: #444;
+    font-size: 2.2rem;
+}
+
+.list-title-container h3 {
+    color: #444;
+    font-size: 1.3rem;
+}
+
 #blog-post-list{
     list-style: none;
     margin-left: 0;
