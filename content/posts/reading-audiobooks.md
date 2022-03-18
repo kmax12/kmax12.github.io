@@ -6,7 +6,7 @@ draft: true
 summary: There is an unspoken etiquette when saying you _read an audiobook_ that I will attempt to document
 ---
 
-There are so many incredible books that I haven't read. I believe it's almost undebatable that the best books are significantly better than nearly everything I could read on the internet today. So, reading more books seems like a good idea.
+There are so many incredible books that I haven't read. I believe it's almost undebatable that the best books are significantly better than most things I typically read on the internet in a day. So, reading more books seems like a good idea.
 
 Sometimes I literally read these books, and other times I listen to the audiobook version. When I take away something interesting from a book, it will often later come up in a conversation with others.
 
