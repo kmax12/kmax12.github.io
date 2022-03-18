@@ -16,7 +16,7 @@ Is there anything wrong with this? The short answer is "no," and you should prob
 
 Nevertheless, the distinction between reading versus listening to a book recently sparked a debate with friends, so I know I'm not the only one interested in unpacking this semantic quagmire.
 
-There is an unspoken etiquette when saying you _read an audiobook_ and I will attempt to document here.
+There is an unspoken etiquette when saying you _read an audiobook_ and I will attempt to document it here.
 
 **1\. Don't say you read an audiobook to impress**
 
