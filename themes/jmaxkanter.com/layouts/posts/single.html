@@ -1,4 +1,7 @@
 {{ define "page-header"}} 
+    <div class="col mb-2">
+        {{ if .Draft }} <div style="color:#fff; background-color: rgb(255, 137, 137); text-align:center; padding: 10px">DRAFT</div>  {{ end }}
+    </div>
     <h1>{{ .Title }}</h1>
     <div id="post-subtitle">{{.Params.subtitle}}</div>
 {{ end }}

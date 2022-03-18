@@ -5,8 +5,8 @@
         {{.Content}}
     </div>
     <ul id="blog-post-list">
-    <!-- Ranges through content/posts/*.md -->
-    {{ range .Pages.ByDate.Reverse }}
+    <!-- Ranges through content/posts/*.md that aren't drafts-->
+    {{ range where .Pages.ByDate.Reverse "Draft" false}}
         <li>
             <h2><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
             <span class="post-list-date"> {{.Date.Format "Jan 2, 2006"}} </span>
