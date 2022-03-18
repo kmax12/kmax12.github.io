@@ -18,13 +18,13 @@ Nevertheless, the distinction between reading versus listening to a book recentl
 
 There is an unspoken etiquette when saying you _read an audiobook_ and I will attempt to document it here.
 
-**1\. Don't say you read an audiobook to impress**
+**1\. Don't say you read an audiobook to impress others**
 
 There is something about reading a book that is particuarly noteworthy. I suspect it is because reading a book takes uninterrupted time and focus, which is in short supply in today's world.
 
-This is not to say that reading audiobooks isn't valuable [^1]. However, if someone believes you said you read audiobooks to impress them, it will work against you. This is because the process of reading a book is admirable in and of itself in some social circles.
+This is not to say that reading audiobooks isn't valuable [^1]. However, if someone believes you're saying you read audiobooks to impress them, it will work against you. This is because the process of reading a book is admirable in and of itself in some social circles.
 
-Therefore, in situations where you will earn respect from reading, you should clarify it was an audiobook as soon as possible.
+Therefore, in situations where you will earn respect from reading, you should specify if it was an audiobook.
 
 **2\. Also actually read books**
 
@@ -40,25 +40,25 @@ Simply put, people will cut you more slack on your verb usage if you also read b
 
 In my opinion, this is the golden rule of saying you read audiobooks.
 
-If you were well-intention, your initial reference to the book was to specify the source rather than how it is consumed. It wasn't deceptive because you could have gotten the same information from reading or listening to the book. While this gives you cover early in the conversation, you should then be on the lookout for a moment to clarify.
+If you are well-intention, your initial reference to the book is to specify the source rather than how it is consumed. It isn't deceptive because you could have gotten the same information from reading or listening to the book. While this gives you cover early in the conversation, you should then be on the lookout for a moment to clarify.
 
-If a conversation about a book goes on long enough, you will find a point where it is prudent and natural to disclose how you consumed it. You should take this chance clarify if they listened to the audiobook.
+If a conversation about a book goes on long enough, you will find a point where it is prudent and natural to disclose how you consumed it. You are expected to take this chance clarify if you listened to the audiobook.
 
 **4\. Disclose if you listened sped up**
 
-Audiobooks make it possible to listen at faster speeds or while multitasking. If you take advantage of this feature, people want to know.
+Audiobooks make it possible to listen at faster that natural speeds or while multitasking. If you take advantage of this feature, people want to know.
 
 This piece of etiquette is best explained by an example.
 
-A friend told me he particularly respected a coworker, who read two books a week. He was impressed that his coworker able to find time to read, despite having a busy schedule. My friend later found out the coworker listened to audiobooks at 2x speed while driving and changed his opinion. This situation is likely a violation of "Don't say you read an audiobook to impress", as well.
+A friend told me he particularly respected a coworker, who read two books a week. He was amazed that his coworker able to find time to read, despite having a busy schedule. My friend later found out the coworker listened to audiobooks at 2x speed while driving and changed his opinion. This situation is likely a violation of "Don't say you read an audiobook to impress others", as well.
 
-To be safe, you should probably also disclose if you listen to audiobooks faster than natural speed.
+To be safe, you should disclose if you listen to audiobooks faster than natural speed.
 
 **5\. Be honest with yourself if you genuinely comprehended the book**
 
 One common cristism of audiobooks is that you achieve a worse understanding of the content through listening compared to reading. This can be especially true if you listen to them sped up (which is why it is important to disclose this!).
 
-Truthfully, I think this is entirely dependent on the book itself. I find listening to audiobooks in genres like business advice or self-help is better than reading the text because I can try to apply the material to my own situation while listening.
+Truthfully, I think this is entirely dependent on the book itself. I find listening to audiobooks in genres like business or self-help is better than reading the text because I apply the material to my own situation while listening. 
 
 It's also dependent on the reader. I have one friend who told me she takes notes while listening to audiobooks for enjoyment. "It's like listening to a lecture," she said. She feels she gets more out of books by listening to them, so there is no harm done by saying she read an audiobook.
 
