@@ -1,7 +1,7 @@
 ---
 title: "Reading Audiobooks"
 subtitle: 'Am I allowed to say I "read" an audiobook?'
-date: 2022-03-17
+date: 2022-03-22
 draft: true
 summary: There is an unspoken etiquette when saying you _read an audiobook_ that I will attempt to document
 ---
