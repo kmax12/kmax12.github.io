@@ -8,11 +8,11 @@ summary: There is an unspoken etiquette when saying you _read an audiobook_ that
 
 It's nearly undebatable that the best books are better than what I read on the internet on a typical day. It's also true that I haven't read most of the best books ever written. So, it follows that reading more books would be a good idea.
 
-Sometimes I literally read these books, and other times I listen to the audiobook version. When I take away something interesting from a book, it will often later come up in a conversation with others and I generally don't distinguish between "reading" and "listening" to the book at first. I will say, "I read recently…" even though I listened to the audiobook. 
+Sometimes I literally read these books, and other times I listen to the audiobook version. When I take away something interesting from a book, it will often later come up in a conversation with others. When this happens, I generally don't distinguish between "reading" and "listening" to the book at first. I will say, "I read recently…" even though I listened to the audiobook. 
 
-Misusing the word "read" makes me feel uncomfortable. On the other hand, saying I "listened to the audiobook" feels awkward in the heat of the conversation. So, I've often wondered, "is there anything wrong _with reading an audiobook?"._
+Misusing the word "read" in these situations makes me feel uncomfortable. On the other hand, saying I "listened to the audiobook" feels awkward in the heat of the conversation. So, I've often wondered, "is there anything wrong _with reading an audiobook?"._
 
-This might be a frivolous debate. Or, if the worst suspicions of one friend I spoke to are correct, society is hurtling towards a future where reading will have lost all meaning. 
+This might all be a frivolous debate. Or, if the worst suspicions of one friend I spoke to are correct, society is hurtling towards a future where reading will have lost all meaning. 
 
 In my opinion, the only way forward is to establish an etiquette for saying you read an audiobook, which I will attempt to document here.
 
