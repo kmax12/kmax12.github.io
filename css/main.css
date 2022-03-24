@@ -59,8 +59,8 @@ section.footnotes{
 }
 
 .navbar-expand .navbar-nav .nav-link {
-    padding-right: 0.4rem!important;
-    padding-left: 0.4rem!important;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
 }
 
 .nav-link.active{
