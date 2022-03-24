@@ -1,16 +1,16 @@
 ---
 title: "Reading Audiobooks"
-subtitle: 'Am I allowed to say I "read" an audiobook?'
-date: 2022-03-22
-draft: true
-summary: There is an unspoken etiquette when saying you _read an audiobook_ that I will attempt to document
+subtitle: 'Is it wrong to say I "read" an audiobook?'
+date: 2022-03-24
+draft: false
+summary: Unpacking the unspoken etiquette when saying you _read an audiobook_.
 ---
 
 It's nearly undebatable that the best books are better than what I read on the internet on a typical day. It's also true that I haven't read most of the best books ever written. So, it follows that reading more books would be a good idea.
 
 Sometimes I literally read these books, and other times I listen to the audiobook version. When I take away something interesting from a book, it will often later come up in a conversation with others. When this happens, I generally don't distinguish between "reading" and "listening" to the book at first. I will say, "I read recently…" even though I listened to the audiobook. 
 
-Misusing the word "read" in these situations makes me feel uncomfortable. On the other hand, saying I "listened to the audiobook" feels awkward in the heat of the conversation. So, I've often wondered, "is there anything wrong _with reading an audiobook?"._
+Misusing the word "read" in these situations makes me feel uncomfortable. On the other hand, saying I "listened to the audiobook" feels awkward in the heat of the conversation. So, I've often wondered, is there anything wrong _with reading an audiobook?_
 
 This might all be a frivolous debate. Or, if the worst suspicions of one friend I spoke to are correct, society is hurtling towards a future where reading will have lost all meaning. 
 
@@ -28,11 +28,11 @@ This is not to say that reading audiobooks isn't valuable [^1]. Nevertheless, if
 
 Even the strictest of bibliophiles will concede that audiobooks can play an important role in a well-balanced literary diet. So, they will cut you more leeway on your verb usage if you also read books.
 
-If you are both reading and listening to books, it has an unnecessarily overhead to track how you consumed each one. I, for one, sometimes forget if I read or listened to a particular title. However, suppose you only ever listen to audiobooks and never read a book. In that case, you should avoid saying you read anything.
+If you are both reading and listening to books, it has some overhead to track how you consumed each one. I, for one, sometimes forget if I read or listened to a particular title. However, suppose you only ever listen to audiobooks and never read a book. In that case, you should avoid saying you read anything.
 
 **3. Be honest with yourself if you genuinely comprehended the book**
 
-There is a common belief that you achieve a worse understanding of a book by listening than reading. This suggests you should only say you read books you fully understand.
+There is a common belief that you achieve a worse understanding of a book by listening than reading. This suggests you should only say you read audiobooks you fully understand.
 
 I think this is entirely dependent on the book itself. I find listening to audiobooks in genres like business or self-help is better than reading because I apply the material to my own situation while listening. The _wondering of the mind_ inspired by the book helps me get the most value out of it.
 
