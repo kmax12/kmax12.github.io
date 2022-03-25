@@ -8,7 +8,7 @@ Do you have recommendations me? [Let me know](mailto:kmax12@gmail.com).
 
 <p> </p>
 
-{{< book "Outliers" "Malcom Gladwell">}}
+{{< book "How We Got to Now" "Steven John">}}
 Thoughts on Books
 {{< /book >}}
 
@@ -16,7 +16,7 @@ Thoughts on Books
 Thoughts on Books
 {{< /book >}}
 
-{{< book "How We Got to Now" "Steven John">}}
+{{< book "Outliers" "Malcom Gladwell">}}
 Thoughts on Books
 {{< /book >}}
 
