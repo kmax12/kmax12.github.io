@@ -2,7 +2,7 @@
 title: "Bookshelf"
 ---
 
-Here are some of the books I've [read](/posts/reading-audiobooks). I hope to add some notes on what I took away from each soon. For now, the books with stars for ones I particularly enjoyed. 
+Here are some of the books I've [read](/posts/reading-audiobooks). I hope to add notes on what I took away from each soon. For now, I've stared the books I particularly enjoyed. 
 
 Do you have recommendations me? [Let me know](mailto:kmax12@gmail.com).
 
