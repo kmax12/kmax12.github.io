@@ -32,6 +32,10 @@ a, a:hover{
     color:#001287;
 }
 
+.book a {
+    color: #444 !important;;
+}
+
 h1 a {
     color:#444;
     text-decoration: none!important;    
