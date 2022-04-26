@@ -1,0 +1,10 @@
+<div class="project" style="margin-bottom: 20px; margin-top:10px">
+        
+    <p><b>{{ .Get 0 }}</b></p>
+    <p>{{ .Inner | markdownify}}</p>    
+
+    <a href="{{ .Get 2 }}" target="_blank"><b>{{ .Get 1 }} ➜</b></a>    
+    <hr>
+
+</div>
+
