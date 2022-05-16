@@ -6,7 +6,7 @@ title: "Projects"
 I started looking into electrifying my house and learned about the effectiveness of electric heat pumps to heat and cool while fighting climate change. As I dug deeper, I realized there were a lot of calculations to determine if they were worthwhile that depended on local factors like the weather and price of energy. I built this site to help others determine if heat pumps will work for them.
 {{< /project  >}}
 
-{{< project "Solar Installation Economics" "solar.jmaxkanter.com" "https://solar.jmaxkanter.com/">}}
+{{< project "Solar Cells Work" "SolarCellsWork.com" "https://www.solarcellswork.com/">}}
 I wanted to install solar panel to power my home, but it was hard to determine if it was a good investment. So, I built this calculator to simulate cash flows from utility bill savings and other factors. Using that info, the calculator determines the NPV, IRR, and payback period of a solar installation to help you determine if it is a good investment. In my specific situation, with all the federal and state government incentives, it's helped me see it was a no brainer.
 
 {{< /project  >}}
