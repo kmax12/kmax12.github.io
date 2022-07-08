@@ -1,5 +1,5 @@
 ---
-title: "Investigating the Economics of Residential Solar"
+title: "Modeling the Economics of Residential Solar"
 date: 2022-07-08
 draft: true
 summary: "I've enjoyed trying new technologies for as long as I can remember. In this post, I explore if installing solar panels on my home is worth it."
