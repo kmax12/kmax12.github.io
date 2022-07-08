@@ -3,6 +3,8 @@ languageCode: "en-us"
 title: "Max Kanter"
 theme: "jmaxkanter.com"
 buildDrafts: true
+params:
+  og_image: "/open-graph.jpg"
 
 markup:
   defaultMarkdownHandler: goldmark
