@@ -7,7 +7,7 @@ I started looking into electrifying my house and learned about the effectiveness
 {{< /project  >}}
 
 {{< project "Solar Cells Work" "SolarCellsWork.com" "https://www.solarcellswork.com/">}}
-I wanted to install solar panel to power my home, but it was hard to determine if it was a good investment. So, I built this calculator to simulate cash flows from utility bill savings and other factors. Using that info, the calculator determines the NPV, IRR, and payback period of a solar installation to help you determine if it is a good investment. In my specific situation, with all the federal and state government incentives, it's helped me see it was a no brainer.
+I wanted to install solar panels to power my home, but it was hard to determine if it was a good investment. So, I built this calculator to simulate cash flows from utility bill savings and other factors. Using that info, the calculator determines a solar installation's NPV, IRR, and payback period to help you decide whether it is a good investment. In my specific situation, all the federal and state government incentives helped me see it was a no-brainer.
 
 {{< /project  >}}
 
