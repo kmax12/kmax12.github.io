@@ -12,7 +12,7 @@ Over the last few months, I've gotten excited about ways to improve my home's en
 
 Transitioning to these new technologies meant my electricity consumption was about to shoot up, so I started investigating generating my own power using solar panels [^2].
 
-Unfortunately, adding residential solar panels is a costly upfront investment. Each solar vendor I spoke to assured me solar makes financial sense, but I remained skeptical. They made their living selling solar panels, after all.
+Unfortunately, adding residential solar panels is a costly upfront investment. Each solar vendor I spoke to assured me solar makes financial sense, but I remained skeptical. They make their living selling solar panels, after all.
 
 ## Do the savings justify the cost?
 
@@ -48,7 +48,7 @@ First, I do not have to install an expensive battery to store energy to power my
 
 Second, net metering makes it much simpler to model the economics of the system. My credits offset usage 1 to 1 and roll over month to month, resetting just once a year. That means I only have to look at the difference between my annual production and consumption when looking at energy costs. The net metering rules vary from state to state, which you can read more about [here](https://www.solarreviews.com/blog/the-state-of-net-metering-usa-2021).
 
-This post was already getting too long, so I won't go into the details of how I chose which model of panels to use, but if you know the total installation and material costs and estimated annual electricity production, you can use this calculator to help decide between options.
+This post was already getting too long, so I won't go into the details of how I chose which model of panels to use (), but if you know the total installation and material costs and estimated annual electricity production, you can use this calculator to help decide between options.
 
 ## Incorporating Uncertainty
 
@@ -70,7 +70,7 @@ To accurately understand the system's value, we need to consider the amount and 
 
 To start, we need to pay the upfront costs of the system [^4]. In my case, it was $47,000 for a 19,000 kWh system. Additionally, federal tax credits and state programs offset this initial amount. As of writing this, that is 26% federal tax credit and [SRECs][5] [^5] worth ~$64 per MWh of estimated production over 15 years in Illinois, where I am installing my system.
 
-As an aside, most vendors' proposals subtracted the entire Illinois incentive off the purchase price, ignoring that any amount you receive is likely [taxable][6]. Although I don't expect my solar vendor to provide tax advice, this omission works significantly in their favor when presenting the effective system cost. Therefore, I recommend that the user inputs the after-tax state incentive value to the model.
+As an aside, most vendors' proposals subtracted the entire Illinois incentive off the purchase price, omitting that any amount you receive may be [taxable][6]. Although I don't expect my solar vendor to provide tax advice, this omission works in their favor when presenting the effective system cost. Therefore, I recommend that the user inputs the after-tax state incentive value to the model.
 
 Regarding the timing, the model assumes we receive the federal and state incentive value after one year, although they may come sooner in reality.
 
