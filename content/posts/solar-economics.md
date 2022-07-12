@@ -16,7 +16,7 @@ Unfortunately, adding residential solar panels is a costly upfront investment. E
 
 ## Do the savings justify the cost?
 
-Heading into this research, I was predisposed to view solar panels on my roof primarily as an investment — I spend some money upfront and receive a monthly "income stream" over the system's lifetime in the form of avoided utility bills.
+Heading into this research, I was predisposed to view solar panels on my roof primarily as an investment — I spend some money upfront and receive a monthly income stream over the system's lifetime in the form of avoided utility bills.
 
 ![Net and Cumulative Cash flows by Year](/images/posts/solar-economics/net-and-cumulative-cashflows-by-year.jpg "Cashflows from my planned system")
 
