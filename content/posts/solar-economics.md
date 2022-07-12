@@ -1,7 +1,7 @@
 ---
 title: "Modeling the Economics of Residential Solar"
-date: 2022-07-11
-draft: true
+date: 2022-07-12
+draft: false
 summary: "I've enjoyed trying new technologies for as long as I can remember. In this post, I explore if installing solar panels on my home is worth it."
 og_image: /images/posts/solar-economics/cash-flows-summary.jpg
 ---
@@ -16,7 +16,7 @@ Unfortunately, adding residential solar panels is a costly upfront investment. E
 
 ## Do the savings justify the cost?
 
-Heading into this research, I was predisposed to view solar panels on my roof primarily as an investment — I spend some money upfront and receive a monthly "income stream" over the system's lifetime in the form of utility bill savings.
+Heading into this research, I was predisposed to view solar panels on my roof primarily as an investment — I spend some money upfront and receive a monthly "income stream" over the system's lifetime in the form of avoided utility bills.
 
 ![Net and Cumulative Cash flows by Year](/images/posts/solar-economics/net-and-cumulative-cashflows-by-year.jpg "Cashflows from my planned system")
 
