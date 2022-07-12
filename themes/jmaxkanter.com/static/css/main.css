@@ -143,13 +143,20 @@ section.footnotes {
   display: block;
 }
 
+.project img {
+  width: 100%;
+  border: 3px #444 solid;
+  border-radius: 3px;
+}
+
 @media only screen and (max-width: 1024px) {
   #post-content img {
     width: 100%;
   }
 }
 
-#post-content figcaption {
+#post-content figcaption,
+.project figcaption {
   font-size: 0.8em;
   font-style: italic;
   color: #aaa;

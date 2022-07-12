@@ -11,14 +11,18 @@
 
 
     {{ template "_internal/opengraph.html" . }}
+    <meta name="twitter:card" content="summary_large_image">
 
     {{ if .Params.og_image }}
         <meta property="og:image" content="{{ .Params.og_image | relURL }}"/>
         <meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
+        <meta name="twitter:image" content="{{ .Params.og_image | absURL }}">
         {{ else }}
         <meta property="og:image" content="{{.Site.Params.og_image | relURL}}" />
         <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+        <meta name="twitter:image" content="{{ .Site.Params.og_image | absURL }}">
     {{ end }}
+<meta name="twitter:image" content="https://solar.jmaxkanter.com/og_image.jpg">
 
 	
     <meta name="viewport" content="width=device-width, initial-scale=1">
