@@ -106,6 +106,7 @@ section.footnotes {
 
 .list-title-container h3 {
   font-size: 1.3rem;
+  font-weight: normal;
 }
 
 #blog-post-list {
@@ -144,7 +145,8 @@ section.footnotes {
 }
 
 .project img {
-  width: 100%;
+  width: 50%;
+  min-width: 375px;
   border: 3px #444 solid;
   border-radius: 3px;
 }
