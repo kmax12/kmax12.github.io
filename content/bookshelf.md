@@ -2,7 +2,7 @@
 title: "Bookshelf"
 ---
 
-Here are some of the books I've [read](/posts/reading-audiobooks). I hope to add notes on what I took away from each soon. For now, I've stared the books I particularly enjoyed. 
+Here are some of the books I've [read](/posts/reading-audiobooks). I hope to add notes on what I took away from each soon. For now, I've stared the books I particularly enjoyed.
 
 Do you have recommendations me? [Let me know](mailto:kmax12@gmail.com).
 
@@ -60,7 +60,6 @@ Thoughts on Books
 Thoughts on Books
 {{< /book >}}
 
-
 {{< book "The Selfish Gene" "Richard Dawkins" "https://www.amazon.com/Selfish-Gene-Popular-Science/dp/0192860925" "star">}}
 Thoughts on Books
 {{< /book >}}
@@ -85,8 +84,10 @@ Thoughts on Books
 Thoughts on Books
 {{< /book >}}
 
+{{< book "From Bauhaus to Our House" "Tom Wolfe" "https://www.amazon.com/Bauhaus-Our-House-Tom-Wolfe/dp/0312429142/">}}
+Thoughts on Books
+{{< /book >}}
 
 <!-- {{< book "" "">}}
 Thoughts on Books
 {{< /book >}} -->
-
