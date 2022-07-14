@@ -150,7 +150,7 @@ There are proposed alternatives such as ["value of solar"](https://ilsr.org/wp-c
 
 #### Government subsidies might not be required to sustain solar investment
 
-![Government Incentives Comparison](/images/posts/solar-economics/no-gov-incentives-comparision.jpg)
+<img src="/images/posts/solar-economics/no-gov-incentives-comparision.jpg" style="max-width:400px" />
 
 Without government subsidies, the NPV of the system is still positive, with a ~4% IRR. That means it is still a profitable investment even without government subsidies. If costs to install solar panels continue to drop, this return would only go up.
 
