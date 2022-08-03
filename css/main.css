@@ -149,6 +149,7 @@ section.footnotes {
   min-width: 375px;
   border: 3px #444 solid;
   border-radius: 3px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
