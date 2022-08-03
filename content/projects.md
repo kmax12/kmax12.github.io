@@ -13,10 +13,16 @@ I wanted to install solar panels to power my home, but it was hard to determine 
 
 {{< /project  >}}
 
+{{< project "ISO Data" "Github" "https://github.com/kmax12/isodata" "/images/isodata-header.png">}}
+
+Independent System Operators, or ISOs, balance the supply and demand of energy on the electrical grid for most of America. They each publish interesting datasets but do so in an unstandardized way. ISODATA is a python library to provide uniform API access to this energy data. I hope ISODATA makes researching and building applications for our energy grid easier.
+
+{{< /project  >}}
+
 {{< project "Featuretools" "GitHub" "https://github.com/alteryx/featuretools">}}
 An open source framework I created to perform automated feature engineering. Over 8 million downloads to date and 6,000+ stars on GitHub. Now developed and maintained by Alteryx.
 {{< /project  >}}
 
 {{< project "Past Projects" "Archive" "https://web.archive.org/web/20181018003655/http://www.jmaxkanter.com/projects">}}
-I have a whole bunch of old projects I've since lost the documentation of except on the old version of this site.
+I have a several old projects I've since lost the documentation of except on the old version of this site.
 {{< /project  >}}
