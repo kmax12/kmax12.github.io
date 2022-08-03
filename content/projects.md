@@ -20,7 +20,7 @@ Independent System Operators, or ISOs, balance the supply and demand of energy o
 {{< /project  >}}
 
 {{< project "Featuretools" "GitHub" "https://github.com/alteryx/featuretools">}}
-An open source framework I created to perform automated feature engineering. Over 8 million downloads to date and 6,000+ stars on GitHub. Now developed and maintained by Alteryx.
+Feature engineering is a time-consuming and error-prone process required to build a machine learning model. With the wrong features a ML model won't work. Featuretools is an open source project I started to perform automated feature engineering. Over 8 million downloads to date and 6,000+ stars on GitHub. Now developed and maintained by Alteryx.
 {{< /project  >}}
 
 {{< project "Past Projects" "Archive" "https://web.archive.org/web/20181018003655/http://www.jmaxkanter.com/projects">}}
