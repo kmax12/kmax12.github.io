@@ -3,7 +3,7 @@ title: "Analyzing Marathon Race Data"
 date: 2022-10-01
 draft: true
 summary: "To believe I can run a faster race by crunching numbers at my computer is probably nothing more than wishful thinking. Regardless, it was fun to explore this data, and I hope to present some novel ways of analyzing marathon race data."
-og_image: /images/posts/solar-economics/cash-flows-summary.jpg
+og_image: /marathon/graphs/finish_time_distribution_with_lines.png
 ---
 
 I'll be at the starting line of the Chicago marathon in less than a week. With so little time left, I am now reducing my mileage so my body will be fresh for the race.
