@@ -139,7 +139,7 @@ Overall, this analysis reaffirms that conventional wisdom is correct. The best p
 
 Unfortunately, acting on this is tricky because setting an initial pace depends on my ultimate finishing time, and I've never run a marathon before.
 
-However, if my main goal is to break 4 hours, it translates into a simple strategy: **run the first half a bit 2 hours and then slow down as little as possible**
+However, if my main goal is to break 4 hours, it translates into a simple strategy: **run the first half a bit under 2 hours and then slow down as little as possible**
 
 To help me achieve that, 3 ideas come to mind.
 
