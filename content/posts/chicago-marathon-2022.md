@@ -89,7 +89,7 @@ Based on this observation, I extracted 1576 runners who "closely missed" or "clo
 
 I now have a group of runners that all set out with the same goal as me - to run a sub-4-hour marathon - along with whether or not they accomplished that goal.
 
-**Focusing on the close-to-the-goal finishers makes sense because they are runners for whom slight changes to the strategy might be big enough to make a difference.**
+**Focusing on the close-to-the-goal finishers makes sense because they are runners for whom slight changes to the strategy might be significant enough to make a difference.**
 
 ## How to be a Close Beat Runner?
 
@@ -135,7 +135,7 @@ It's hard to prove causation, but the correlation is clear. **On average, the mo
 
 ## My Race Strategy
 
-Overall, this analysis reaffirms that conventional wisdom is correct. The best pacing strategy is to not start too fast in order to avoid slowing down later in the race.
+Overall, this analysis reaffirms that conventional wisdom is correct. The best pacing strategy is to avoid slowing down later in the race by not starting too fast.
 
 Unfortunately, acting on this is tricky because setting an initial pace depends on my ultimate finishing time, and I've never run a marathon before.
 
@@ -149,7 +149,7 @@ To help me achieve that, 3 ideas come to mind.
 
 ## Improving Analysis
 
-This analysis only looked at a subset of good/bad race times. There are definitely runners who had good races whose strategies I didn't analyze. The best strategy may be contained in runners who solidly beat 4 hrs rather than closely beat it. However, I couldn't consider these people because I could not tell if someone between two round numbers had a good or bad race.
+This analysis only looked at a subset of good/bad race times. There are definitely runners who had good races whose strategies I didn't analyze. For example, the best strategy may be contained in runners who solidly beat 4 hrs rather than closely beat it. However, I couldn't consider these people because I could not tell if someone between two round numbers had a good or bad race.
 
 Additionally, my labeling of good and bad races may be incorrect. In particular, the people who just broke 4 hrs might not consider it a good race but rather "good enough."
 
