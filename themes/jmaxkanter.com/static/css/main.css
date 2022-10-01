@@ -231,3 +231,8 @@ hr {
 th, td {
   padding: 15px;
 }
+
+figure.table-figure {
+  width: 100%;
+  overflow-x: scroll;
+}
