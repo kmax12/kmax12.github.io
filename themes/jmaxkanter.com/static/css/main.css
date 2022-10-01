@@ -201,3 +201,33 @@ hr {
   border: 0;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+@media only screen and (max-width: 1023px) {
+  .marathon-plotly-html{
+    display: None
+  }
+  .marathon-plotly-img{
+    width:100%;
+    /* height:600px; */
+    border:none
+  }
+}
+
+@media (min-width: 1024px) {
+  .marathon-plotly-img{
+    display: None!important
+  }
+  .marathon-plotly-html{
+    width:100%;
+    height:600px;
+    border:none
+  }
+}
+
+
+th, td {
+  padding: 15px;
+}
