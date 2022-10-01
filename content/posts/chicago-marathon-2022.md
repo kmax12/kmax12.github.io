@@ -52,7 +52,7 @@ What clearly stands out is that **more people finish right before a round time r
 
 Using this observation, **I extracted 1576 who "closely missed" or "closely beat" a 4-hour finish time.**
 
-<figure>
+<figure class="table-figure">
 <table class=“table table-hover”>
    <thead>
       <tr>
