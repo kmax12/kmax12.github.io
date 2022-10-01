@@ -48,11 +48,11 @@ Perhaps, if we get creative, we can devise a way of labeling some runners.
 
 Let's revisit the premise of this analysis: I am trying to break 4 hours. More generally, it's safe to say few people run a marathon intending to run slightly above a round number.
 
-With that in mind, let's look at the Finish Times Distribution. I also added vertical lines at round finish times in the graph below.
+With that in mind, let's look at the Finish Times Distribution with vertical lines at round finish times.
 
 {{< plotly "finish_time_distribution_with_lines" >}}
 
-What clearly stands out is that **more people finish right before a round time relative to right after it**. This substantiates the idea that people run the race with the explicit goal of beating a round time.
+What clearly stands out is that **more runners finish right before a round time relative to right after it**. This substantiates the idea that people run the race with the explicit goal of beating a round time.
 
 Based on this observation, I extracted 1576 runners who "closely missed" or "closely beat" a 4-hour finish time.
 
@@ -89,7 +89,7 @@ Based on this observation, I extracted 1576 runners who "closely missed" or "clo
 
 I now have a group of runners that all set out with the same goal as me - to run a sub-4-hour marathon - along with whether or not they accomplished that goal.
 
-**Focusing on the close-to-the-goal finishers makes sense because they are people for whom slight changes to the strategy might be big enough to make a difference.**
+**Focusing on the close-to-the-goal finishers makes sense because they are runners for whom slight changes to the strategy might be big enough to make a difference.**
 
 ## How to be a Close Beat Runner?
 
@@ -103,7 +103,7 @@ While the Close Beat group ran an average of 1 minute 30 seconds faster than the
 
 Furthermore, the majority of both groups ran the first half in under 2 hours, meaning they were on pace to break 4 hours.
 
-Here's a way to see how similar both groups run the first half of the race: if you picked a random Close Miss runner, there is a 44% probability they ran faster than a random Close Beat Runner.
+Here's a way to see how similar the two groups are: if you picked a random Close Miss runner, there is a 44% probability they ran the first half faster than a random Close Beat Runner.
 
 Put another way, **if you run the first half in slightly under 2 hours, it's hard to predict if you will be a Close Beat or Close Miss runner**.
 
@@ -111,21 +111,21 @@ My takeaway? The difference between these two groups is how they run the race's 
 
 ## What Happens in the Second Half?
 
-Earlier, we looked at the average pace at each split. Now, let's look at the _difference_ in pace at each split between Close Beat and Close Miss runners. In the graph below, each bar represents the pace difference between close beat and miss runners.
+Earlier, we looked at the average pace at each split. Now, let's look at the _difference_ in pace between Close Beat and Close Miss runners at each split.
 
 {{< plotly "pace_difference" >}}
 
-Across the entire race, Close Miss runners have an average pace of 11 seconds slower than Close Beat runners (grey horizontal line). However, the individual splits tell a different story.
+In the graph above, each bar represents the pace difference between Close Beat and Miss runners. Across the entire race, Close Miss runners have an average pace of 11 seconds slower than Close Beat runners (grey horizontal line). However, the individual splits tell a different story.
 
 **The Close Miss runners run faster than expected for the race's first half. But, for the race's second half, they are running slower than expected** relative to the Close Beat runners.
 
-We know from earlier that most people slow down around the 35km mark (21.5mi). Still, the Close Miss group slows a disproportionate amount compared to the Close Beat group because their difference in pace is greater than other splits.
+We know from earlier that most runners slow down significantly at the 35km mark (21.5mi). Still, the Close Miss group slows a disproportionate amount compared to the Close Beat group because their difference in pace is greater than other splits.
 
-**This suggests to me that the Close Miss group ran too fast at the beginning of the race** and potentially "[hit the wall](https://www.runnersworld.com/uk/training/marathon/a774858/how-to-avoid-the-wall-and-cope-if-you-hit-it/)".
+**This suggests to me that the Close Miss group ran too fast at the beginning of the race** and potentially "[hit the wall](https://www.runnersworld.com/uk/training/marathon/a774858/how-to-avoid-the-wall-and-cope-if-you-hit-it/)" before finishing.
 
-## Second Half Slow Down
+## Examining the Second Half Slow Down
 
-Finally, let's dig deeper into the correlation between the second-half slowdown and finish time by looking across all runners.
+Finally, let's dig deeper into the correlation between the second-half slowdown and overall finish time by looking across all runners.
 
 In the plot below, I graph the percentage slower each runner completes the second half vs. their overall finish time, along with the best fit trendline.
 
@@ -135,11 +135,11 @@ It's hard to prove causation, but the correlation is clear. **On average, the mo
 
 ## My Race Strategy
 
-Overall, this analysis reaffirms that conventional wisdom is correct. The best pacing strategy is to avoid slowing down later in the race by not starting too fast.
+Overall, this analysis reaffirms that conventional wisdom is correct. The best pacing strategy is to not start too fast in order to avoid slowing down later in the race.
 
 Unfortunately, acting on this is tricky because setting an initial pace depends on my ultimate finishing time, and I've never run a marathon before.
 
-However, if my main goal is to break 4 hours, it translates into a simple strategy: **run the first half a bit under 2 hours and then slow down as little as possible**
+However, if my goal is to break 4 hours, it translates into a simple strategy: **run the first half a bit under 2 hours and then slow down as little as possible**
 
 To help me achieve that, 3 ideas come to mind.
 
@@ -149,13 +149,13 @@ To help me achieve that, 3 ideas come to mind.
 
 ## Improving Analysis
 
-This analysis only looked at a subset of good/bad race times. There are definitely runners who had good races whose strategies I didn't analyze. Additionally, my labeling of good and bad races may be incorrect. In particular, the people who just broke 4 hrs might not consider it a good race but rather "good enough."
+This analysis only looked at a subset of good/bad race times. There are definitely runners who had good races whose strategies I didn't analyze. The best strategy may be contained in runners who solidly beat 4 hrs rather than closely beat it. However, I couldn't consider these people because I could not tell if someone between two round numbers had a good or bad race.
 
-Along those lines, the best strategy may be contained in runners who solidly beat 4 hrs rather than closely beat it. However, I couldn't consider these people because I could not tell if someone between two round numbers had a good or bad race.
+Additionally, my labeling of good and bad races may be incorrect. In particular, the people who just broke 4 hrs might not consider it a good race but rather "good enough."
 
 ## Final thoughts
 
-To believe I can run a faster race by crunching numbers at my computer is probably nothing more than wishful thinking. Regardless, it was enjoyable to explore this data, and I hope I presented some novel ways of analyzing marathon race data.
+To believe I can run a faster race by crunching numbers sitting at my computer is probably nothing more than wishful thinking. Regardless, it was enjoyable to explore this data, and I hope I presented some novel ways of analyzing marathon race data.
 
 I'll close out with an animation I made to visualize the results. The Close Beat (Green) and Close Miss (Red) runners running around the course:
 
