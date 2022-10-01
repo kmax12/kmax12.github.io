@@ -214,6 +214,13 @@ hr {
     /* height:600px; */
     border:none
   }
+  .use-desktop-message{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    background-color: #94a3b8;
+    padding: 5px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -225,6 +232,10 @@ hr {
     height:600px;
     border:none
   }
+  .use-desktop-message{
+    display: None!important;
+  }
+
 
   
 }
