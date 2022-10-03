@@ -153,6 +153,8 @@ This analysis only looked at a subset of good/bad race times. There are definite
 
 Additionally, my labeling of good and bad races may be noisy. For example, the people who only closely beat 4 hrs might not consider it a good race and the people who closely missed 4 hours, may have still beat their goal time.
 
+Finally, I didn't take into account the weather. The 2021 Chicago Marathon had [warm and humid conditions](https://www.nbcchicago.com/weather/2021-chicago-marathon-weather-race-day-temps-could-be-warmest-in-10-years/2632009/#:~:text=The%20day%20is%20expected%20to,them%20prepare%20for%20warmer%20conditions.), that got worse later in the day. It would be interested to perform this analysis on different years or marathons, to see if stays consistent.
+
 ## Final thoughts
 
 To believe I can run a faster race by crunching numbers sitting at my computer is probably nothing more than wishful thinking. Regardless, it was enjoyable to explore this data, and I hope I presented some novel ways of analyzing marathon race data.
