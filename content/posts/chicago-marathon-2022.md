@@ -1,7 +1,7 @@
 ---
 title: "Analyzing Marathon Data"
 date: 2022-10-03
-draft: true
+draft: false
 summary: "I was curious if I could improve my chances of running a good race using historical race data"
 og_image: /marathon/graphs/avg_pace_and_pace_difference.jpg
 ---
@@ -113,7 +113,7 @@ My takeaway? The difference between these two groups is how they run the race's 
 
 Earlier, we looked at the average pace at each split. Now, let's look at the _difference_ in pace between Close Beat and Close Miss runners at each split.
 
-{{< plotly "pace_difference" >}}
+{{< plotly "avg_pace_and_pace_difference" >}}
 
 In the graph above, each bar represents the pace difference between Close Beat and Miss runners. Across the entire race, Close Miss runners have an average pace of 11 seconds slower than Close Beat runners (grey horizontal line). However, the individual splits tell a different story.
 
