@@ -151,7 +151,7 @@ To help me achieve that, 3 ideas come to mind.
 
 This analysis only looked at a subset of good/bad race times. There are definitely runners who had good races whose strategies I didn't analyze. For example, the best strategy may be contained in runners who solidly beat 4 hrs rather than closely beat it. However, I couldn't consider these people because I could not tell if someone between two round numbers had a good or bad race.
 
-Additionally, my labeling of good and bad races may be incorrect. In particular, the people who just broke 4 hrs might not consider it a good race but rather "good enough."
+Additionally, my labeling of good and bad races may be noisy. For example, the people who only closely beat 4 hrs might not consider it a good race and the people who closely missed 4 hours, may have still beat their goal time.
 
 ## Final thoughts
 
