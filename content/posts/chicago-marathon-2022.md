@@ -1,16 +1,16 @@
 ---
-title: "Analyzing Marathon Race Data"
-date: 2022-10-01
+title: "Analyzing Marathon Data"
+date: 2022-10-03
 draft: true
-summary: "To believe I can run a faster race by crunching numbers at my computer is probably nothing more than wishful thinking. Regardless, it was fun to explore this data, and I hope to present some novel ways of analyzing marathon race data."
-og_image: /marathon/graphs/finish_time_distribution_with_lines.png
+summary: "I was curious if I could improve my chances of running a good race using historical race data"
+og_image: /marathon/graphs/avg_pace_and_pace_difference.jpg
 ---
 
-I'll be at the starting line of the Chicago marathon in less than a week. With so little time left, I am now reducing my mileage so my body will be fresh for the race.
+I'll be at the starting line of the Chicago Marathon in less than a week. With so little time left, I am now reducing my mileage so my body will be fresh for the race.
 
 Since I can't do any more training to improve my fitness, the only thing left to do is think about my strategy for the race. This will be my first marathon, so it's hard to know what to expect.
 
-Fortunately for me, all the times from last year's Chicago marathon are available [online](https://results.chicagomarathon.com/2021/), and with a small amount of effort, I downloaded the data for all 26,000 people who ran the race.
+Fortunately, all the times from last year's Chicago Marathon are available [online](https://results.chicagomarathon.com/2021/), and with a small amount of effort, I downloaded the data for all 26,000 people who ran the race.
 
 ![Data Sample](/marathon/data_sample.png "A sample of the five fastest runners in 2021 Chicago Marathon")
 
@@ -117,7 +117,7 @@ Earlier, we looked at the average pace at each split. Now, let's look at the _di
 
 In the graph above, each bar represents the pace difference between Close Beat and Miss runners. Across the entire race, Close Miss runners have an average pace of 11 seconds slower than Close Beat runners (grey horizontal line). However, the individual splits tell a different story.
 
-**The Close Miss runners run faster than expected for the race's first half. But, for the race's second half, they are running slower than expected** relative to the Close Beat runners.
+**The Close Miss group runs faster than expected for the race's first half. But, for the race's second half, they are running slower than expected relative to the Close Beat runners.**
 
 We know from earlier that most runners slow down significantly at the 35km mark (21.5mi). Still, the Close Miss group slows a disproportionate amount compared to the Close Beat group because their difference in pace is greater than other splits.
 
