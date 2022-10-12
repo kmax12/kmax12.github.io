@@ -6,6 +6,8 @@ summary: "I was curious if I could improve my chances of running a good race usi
 og_image: /marathon/graphs/avg_pace_and_pace_difference.jpg
 ---
 
+**Update: I completed the race! Skip to the end to see [my results](#race-results).**
+
 I'll be at the starting line of the Chicago Marathon in less than a week. With so little time left, I am now reducing my mileage so my body will be fresh for the race.
 
 Since I can't do any more training to improve my fitness, the only thing left to do is think about my strategy for the race. This will be my first marathon, so it's hard to know what to expect.
@@ -162,5 +164,19 @@ To believe I can run a faster race by crunching numbers sitting at my computer i
 I'll close out with an animation I made to visualize the results. The Close Beat (Green) and Close Miss (Red) runners running around the course:
 
 ![Race Animation](/marathon/race.gif)
+
+## Race Results
+
+I ended up as a "Close Beat" with a finishing time of 3:59:20!
+
+The first half came in at 01:56:43, so ended up slowing doing in the second half. Around 20 miles (~30km split below), I started to get cramps in both legs. At that point, I did the math of the pace I needed for the rest of the race to break 4 hours and adjusted to that. Here are my splits:
+
+![Race Splits](/marathon/splits.jpg)
+
+Overall, my times ended up being pretty close to my plan of running the first half slightly under 2 hours and then focusing on slowing down as little as possible. I'm pretty happy with my pacing up until the cramping started. I think better hydration and fueling could have avoided that.
+
+Nonetheless, it was an amazing time running around Chicago and I look forward to doing more races in the future!
+
+![Race Finishing with Medal](/marathon/race-finish-with-medal.jpg "After crossing the finish line. A lot more sore than I look.")
 
 [^1]: In Chicago, like many other marathons, you are assigned a starting time based on your self-selected estimated finish time. The dataset doesn't contain this data, but I did have the time of day each runner started, which likely could be used to reverse out what starting corral a runner was a part of. I chose not to do this because I figured it was less generalizable to other marathons than the close beat / close miss method.
