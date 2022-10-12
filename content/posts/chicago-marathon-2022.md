@@ -169,7 +169,7 @@ I'll close out with an animation I made to visualize the results. The Close Beat
 
 I ended up as a "Close Beat" with a finishing time of 3:59:20!
 
-The first half came in at 01:56:43, so ended up slowing doing in the second half. Around 20 miles (~30km split below), I started to get cramps in both legs. At that point, I did the math of the pace I needed for the rest of the race to break 4 hours and adjusted to that. Here are my splits:
+The first half came in at 01:56:43. Around 20 miles (~30km split below), I started to get cramps in both legs. At that point, I did the math of the pace I needed for the rest of the race to break 4 hours and adjusted to that. Here are my splits:
 
 ![Race Splits](/marathon/splits.jpg)
 
