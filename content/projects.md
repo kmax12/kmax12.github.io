@@ -2,20 +2,20 @@
 title: "Projects"
 ---
 
+{{< project "GridStatus.io" "GridStatus.io" "https://gridstatus.io/" "/images/gridstatus-header.png" "GitHub" "https://github.com/kmax12/gridstatus">}}
+
+The electric grid is a remarkable feat of engineering that is easy to take for granted. However, as we decarbonize and electrify society, knowing when, where, and how our electricity is generated will be more important than ever. I built Grid Status to provide access to the historical, real-time, and forecasted data to accelerate researching and building applications for our energy grid. 
+
+{{< /project  >}}
+
 {{< project "Heat Pumps Work" "HeatPumpsWork.com" "https://www.heatpumpswork.com/" "/images/heat-pumps-work-screenshot.jpg">}}
 
 I started looking into electrifying my house and learned about the effectiveness of electric heat pumps to heat and cool while fighting climate change. As I dug deeper, I realized there were a lot of calculations to determine if they were worthwhile that depended on local factors like the weather and price of energy. I built this site to help others determine if heat pumps will work for them.
 {{< /project  >}}
 
-{{< project "Solar Cells Work" "SolarCellsWork.com" "https://www.solarcellswork.com/" "/images/posts/solar-economics/calculator-screenshot.jpg">}}
+{{< project "Solar Cells Work" "SolarCellsWork.com" "https://www.solarcellswork.com/" "/images/posts/solar-economics/calculator-screenshot.jpg" "Blog Post" "https://www.jmaxkanter.com/posts/solar-economics/">}}
 
 I wanted to install solar panels to power my home, but it was hard to determine if it was a good investment. So, I built this calculator to simulate cash flows from utility bill savings and other factors. Using that info, the calculator determines a solar installation's NPV, IRR, and payback period to help you decide whether it is a good investment. In my specific situation, all the federal and state government incentives helped me see it was a no-brainer.
-
-{{< /project  >}}
-
-{{< project "ISO Data" "Github" "https://github.com/kmax12/isodata" "/images/isodata-header.png">}}
-
-Independent System Operators, or ISOs, balance the supply and demand of energy on the electrical grid for most of America. They each publish interesting datasets but do so in an unstandardized way. ISODATA is a python library to provide uniform API access to this energy data. I hope ISODATA makes researching and building applications for our energy grid easier.
 
 {{< /project  >}}
 
