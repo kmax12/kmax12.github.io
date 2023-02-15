@@ -4,6 +4,7 @@ title: "Papers"
 
 Here's a selection of papers I have authored or co-authored
 
+* Using Long-Duration Storage to Reduce Portfolio Carbon Emissions Risk [exec summary](https://www.gridstatus.io/files/Storage_Reduce_Carbon_Emissions_Risks_Exec_Summary_Final.pdf) | [full paper](https://www.gridstatus.io/files/Storage_Reduce_Carbon_Emissions_Risks_Final.pdf)
 * The Machine Learning Bazaar: Harnessing the ML Ecosystem for Effective System Development [pdf](https://arxiv.org/abs/1905.08942)
 * Deep Feature Synthesis: Towards Automating Data Science Endeavors [pdf](/papers/DSAA_DSM_2015.pdf)
 * Prediction Factory: automated development and collaborative evaluation of predictive models [pdf](https://arxiv.org/abs/1811.11960)
