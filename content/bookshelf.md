@@ -88,9 +88,11 @@ Thoughts on Books
 Thoughts on Books
 {{< /book >}}
 
-{{< book "The Grid: The Fraying Wires Between Americans and Our Energy Future" "Gretchen Bakke" "star" "https://www.amazon.com/Grid-Fraying-Between-Americans-Energy/dp/1632865688/">}}
+{{< book "The Grid: The Fraying Wires Between Americans and Our Energy Future" "Gretchen Bakke" "https://www.amazon.com/Grid-Fraying-Between-Americans-Energy/dp/1632865688/" "star" >}}
 Thoughts on Books
 {{< /book >}}
+
+<!-- solar book and black swan. maybe Keyenes book too -->
 
 <!-- {{< book "" "">}}
 Thoughts on Books
