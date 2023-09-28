@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{ block "header" . }} {{- partial "header.html" . -}} {{ end }}
+  {{- partial "head.html" . -}}
+  <body>
+    {{ block "header" . }} {{- partial "header.html" . -}} {{ end }}
 
-            <div class="container">
-                <header>
-                    <div class="row pt-4">
-                        <div class="col">
-                            {{ if .IsHome }}
-                                {{- partial "profile.html" . -}}
-                            {{ else }}
-                                {{ block "page-header" . }} <h1>{{ .Title }}</h1> {{ end }}
-                            {{ end }}
-                        </div>
-                    </div>
-                </header>
-                <div class="row py-2">
-                    <div class="col">
-                        {{- block "main" . }}{{ .Content }} {{- end }}
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+      <header>
+        <div class="row pt-4">
+          <div class="col">
+            {{ if .IsHome }} {{- partial "profile.html" . -}} {{ else }} {{
+            block "page-header" . }}
+            <h1>{{ .Title }}</h1>
+            {{ end }} {{ end }}
+          </div>
+        </div>
+      </header>
+      <div class="row py-2">
+        <div class="col">{{- block "main" . }}{{ .Content }} {{- end }}</div>
+      </div>
+    </div>
 
-        {{ block "footer" . }} {{- partial "footer.html" . -}} {{ end }}
+    {{ block "footer" . }} {{- partial "footer.html" . -}} {{ end }}
 
-        <script>
-        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-        ga('create', 'UA-10903109-3', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async></script>
-    </body>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KVD1D73HSX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KVD1D73HSX");
+    </script>
+  </body>
 </html>
