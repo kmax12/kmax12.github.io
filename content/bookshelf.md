@@ -2,7 +2,7 @@
 title: "Bookshelf"
 ---
 
-Here are some of the books I've [read](/posts/reading-audiobooks). I hope to add notes on what I took away from each soon. For now, I've stared the books I particularly enjoyed.
+Here are some of the books I've [read](/posts/reading-audiobooks) or have sitting on my bookshelf to read one day. I've stared the books I particularly enjoyed.
 
 Do you have recommendations me? [Let me know](mailto:kmax12@gmail.com).
 
@@ -17,6 +17,10 @@ Thoughts on Books
 {{< /book >}}
 
 {{< book "Outliers" "Malcom Gladwell" "https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930">}}
+Thoughts on Books
+{{< /book >}}
+
+{{< book "The Merchant of Power" "John F. Wasik" "https://www.amazon.com/Merchant-Power-Insull-Creation-Metropolis/dp/023060952X">}}
 Thoughts on Books
 {{< /book >}}
 
@@ -85,6 +89,14 @@ Thoughts on Books
 {{< /book >}}
 
 {{< book "From Bauhaus to Our House" "Tom Wolfe" "https://www.amazon.com/Bauhaus-Our-House-Tom-Wolfe/dp/0312429142/">}}
+Thoughts on Books
+{{< /book >}}
+
+{{< book "Hidden Valley Road" "Robert Kolker" "https://www.amazon.com/Hidden-Valley-Road-Inside-American/dp/038554376X">}}
+Thoughts on Books
+{{< /book >}}
+
+{{< book "The Black Swan" "Nassim Nicholas Taleb" "https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X">}}
 Thoughts on Books
 {{< /book >}}
 
